@@ -1,0 +1,242 @@
+[
+    {
+        "word": "butterfly",
+        "marathi": "फुलपाखरू",
+        "pronunciation": "Phul-pakh-roo",
+        "sentence": "फुलपाखरू फुलांवर बसते.",
+        "translation": "The butterfly sits on flowers.",
+        "fun_fact": "फूल म्हणजे flower + पाखरू म्हणजे bird — flower-bird! 🦋"
+    },
+    {
+        "word": "sun",
+        "marathi": "सूर्य",
+        "pronunciation": "Soor-ya",
+        "sentence": "सूर्य रोज सकाळी उगवतो.",
+        "translation": "The sun rises every morning.",
+        "fun_fact": "सूर्य आपल्याला उष्णता आणि प्रकाश देतो! 🌞"
+    },
+    {
+        "word": "moon",
+        "marathi": "चंद्र",
+        "pronunciation": "Chan-dra",
+        "sentence": "रात्री चंद्र आकाशात चमकतो.",
+        "translation": "The moon shines in the sky at night.",
+        "fun_fact": "चंद्र पृथ्वीभोवती फिरतो! 🌙"
+    },
+    {
+        "word": "rain",
+        "marathi": "पाऊस",
+        "pronunciation": "Paa-oos",
+        "sentence": "आज खूप पाऊस पडत आहे.",
+        "translation": "It is raining a lot today.",
+        "fun_fact": "पावसाचे पाणी आधी समुद्रातून येते! 🌧️"
+    },
+    {
+        "word": "flower",
+        "marathi": "फूल",
+        "pronunciation": "Phool",
+        "sentence": "बागेत सुंदर फुले आहेत.",
+        "translation": "There are beautiful flowers in the garden.",
+        "fun_fact": "फुले मधमाशांना आकर्षित करतात! 🌸"
+    },
+    {
+        "word": "tree",
+        "marathi": "झाड",
+        "pronunciation": "zaad",
+        "sentence": "आंब्याचे झाड खूप मोठे आहे.",
+        "translation": "The mango tree is very big.",
+        "fun_fact": "झाडे आपल्याला ऑक्सिजन देतात! 🌳"
+    },
+    {
+        "word": "river",
+        "marathi": "नदी",
+        "pronunciation": "Na-dee",
+        "sentence": "नदीत मासे पोहतात.",
+        "translation": "Fish swim in the river.",
+        "fun_fact": "गंगा भारतातील सर्वात मोठी नदी आहे! 🌊"
+    },
+    {
+        "word": "mountain",
+        "marathi": "पर्वत",
+        "pronunciation": "Par-vat",
+        "sentence": "पर्वत खूप उंच आहे.",
+        "translation": "The mountain is very tall.",
+        "fun_fact": "हिमालय जगातील सर्वात उंच पर्वत आहे! 🏔️"
+    },
+    {
+        "word": "sky",
+        "marathi": "आकाश",
+        "pronunciation": "Aa-kaash",
+        "sentence": "आकाश निळे आहे.",
+        "translation": "The sky is blue.",
+        "fun_fact": "रात्री आकाशात असंख्य तारे दिसतात! ⭐"
+    },
+    {
+        "word": "water",
+        "marathi": "पाणी",
+        "pronunciation": "Paa-ni",
+        "sentence": "मला पाणी प्यायचे आहे.",
+        "translation": "I want to drink water.",
+        "fun_fact": "आपल्या शरीरात ७०% पाणी आहे! 💧"
+    },
+    {
+        "word": "cat",
+        "marathi": "मांजर",
+        "pronunciation": "Maan-jar",
+        "sentence": "एक छोटी मांजर होती.",
+        "translation": "There was a small cat.",
+        "fun_fact": "मांजराला रात्री चांगले दिसते! 🐱"
+    },
+    {
+        "word": "dog",
+        "marathi": "कुत्रा",
+        "pronunciation": "Koo-tra",
+        "sentence": "कुत्रा माझा मित्र आहे.",
+        "translation": "The dog is my friend.",
+        "fun_fact": "कुत्रे माणसाचे सर्वात जुने मित्र आहेत! 🐶"
+    },
+    {
+        "word": "bird",
+        "marathi": "पक्षी",
+        "pronunciation": "Pak-shi",
+        "sentence": "आकाशात पक्षी उडतात.",
+        "translation": "Birds fly in the sky.",
+        "fun_fact": "जगात १०,००० पेक्षा जास्त पक्षी आहेत! 🐦"
+    },
+    {
+        "word": "fish",
+        "marathi": "मासा",
+        "pronunciation": "Maa-sa",
+        "sentence": "तलावात मासे पोहतात.",
+        "translation": "Fish swim in the pond.",
+        "fun_fact": "मासे पाण्याखाली श्वास घेतात! 🐟"
+    },
+    {
+        "word": "elephant",
+        "marathi": "हत्ती",
+        "pronunciation": "Hat-tee",
+        "sentence": "हत्ती खूप मोठा प्राणी आहे.",
+        "translation": "The elephant is a very big animal.",
+        "fun_fact": "हत्तीला पाण्याने आंघोळ करायला आवडते! 🐘"
+    },
+    {
+        "word": "cow",
+        "marathi": "गाय",
+        "pronunciation": "Gaay",
+        "sentence": "गाय दूध देते.",
+        "translation": "The cow gives milk.",
+        "fun_fact": "भारतात गाय पवित्र मानली जाते! 🐄"
+    },
+    {
+        "word": "monkey",
+        "marathi": "माकड",
+        "pronunciation": "Maa-kad",
+        "sentence": "माकड झाडावर चढते.",
+        "translation": "The monkey climbs the tree.",
+        "fun_fact": "माकड खूप हुशार प्राणी आहे! 🐒"
+    },
+    {
+        "word": "parrot",
+        "marathi": "पोपट",
+        "pronunciation": "Po-pat",
+        "sentence": "पोपट हिरव्या रंगाचा आहे.",
+        "translation": "The parrot is green in colour.",
+        "fun_fact": "पोपट माणसाचे बोलणे शिकतो! 🦜"
+    },
+    {
+        "word": "mother",
+        "marathi": "आई",
+        "pronunciation": "Aa-ee",
+        "sentence": "माझी आई खूप गोड आहे.",
+        "translation": "My mother is very sweet.",
+        "fun_fact": "आई हा जगातला सर्वात गोड शब्द आहे! ❤️"
+    },
+    {
+        "word": "father",
+        "marathi": "बाबा",
+        "pronunciation": "Baa-baa",
+        "sentence": "बाबा मला सायकल शिकवतो.",
+        "translation": "Father teaches me how to ride a bicycle.",
+        "fun_fact": "बाबा हा शब्द जगभर वापरतात — तुर्की, स्वाहिली, हिंदी, अरबी भाषेतही बाबा म्हणजे वडीलच! 👨"
+    },
+    {
+        "word": "sister",
+        "marathi": "बहीण",
+        "pronunciation": "Ba-heen",
+        "sentence": "माझी बहीण शाळेत जाते.",
+        "translation": "My sister goes to school.",
+        "fun_fact": "बहीण म्हणजे आयुष्यातील पहिली मैत्रीण! 👧"
+    },
+    {
+        "word": "brother",
+        "marathi": "भाऊ",
+        "pronunciation": "Bhaau",
+        "sentence": "माझा भाऊ खेळतो.",
+        "translation": "My brother plays.",
+        "fun_fact": "भाऊ म्हणजे आयुष्यातील पहिला मित्र! 👦"
+    },
+    {
+        "word": "grandmother",
+        "marathi": "आजी",
+        "pronunciation": "Aa-jee",
+        "sentence": "आजी गोष्टी सांगते.",
+        "translation": "Grandmother tells stories.",
+        "fun_fact": "आजीच्या गोष्टी खूप मजेदार असतात! 👵"
+    },
+    {
+        "word": "grandfather",
+        "marathi": "आजोबा",
+        "pronunciation": "Aa-jo-baa",
+        "sentence": "आजोबा बागेत फिरतात.",
+        "translation": "Grandfather walks in the garden.",
+        "fun_fact": "आजोबांकडे खूप अनुभव असतो! 👴"
+    },
+    {
+        "word": "school",
+        "marathi": "शाळा",
+        "pronunciation": "Shaa-la",
+        "sentence": "मी रोज शाळेत जातो.",
+        "translation": "I go to school every day.",
+        "fun_fact": "शाळेत आपण नवीन गोष्टी शिकतो! 🏫"
+    },
+    {
+        "word": "book",
+        "marathi": "पुस्तक",
+        "pronunciation": "Pus-tak",
+        "sentence": "मला पुस्तक वाचायला आवडते.",
+        "translation": "I like to read books.",
+        "fun_fact": "पुस्तके आपले सर्वात चांगले मित्र असतात! 📚"
+    },
+    {
+        "word": "pencil",
+        "marathi": "पेन्सिल",
+        "pronunciation": "Pen-sil",
+        "sentence": "मी पेन्सिलने लिहितो.",
+        "translation": "I write with a pencil.",
+        "fun_fact": "एका पेन्सिलने ५० किमी लिहिता येते! ✏️"
+    },
+    {
+        "word": "food",
+        "marathi": "जेवण",
+        "pronunciation": "Je-van",
+        "sentence": "आज जेवण खूप चविष्ट आहे.",
+        "translation": "Today the food is very tasty.",
+        "fun_fact": "भारतात प्रत्येक राज्यात वेगळे जेवण असते! 🍛"
+    },
+    {
+        "word": "house",
+        "marathi": "घर",
+        "pronunciation": "Ghar",
+        "sentence": "माझे घर सुंदर आहे.",
+        "translation": "My house is beautiful.",
+        "fun_fact": "घर म्हणजे आनंदाचे ठिकाण! 🏠"
+    },
+    {
+        "word": "friend",
+        "marathi": "मित्र",
+        "pronunciation": "Mi-tra",
+        "sentence": "माझा मित्र खूप चांगला आहे.",
+        "translation": "My friend is very good.",
+        "fun_fact": "खरा मित्र नेहमी मदत करतो! 🤝"
+    }
+]
