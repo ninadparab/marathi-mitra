@@ -1,0 +1,36 @@
+# Model config
+model:
+  name: "microsoft/Phi-3-mini-4k-instruct"
+  max_seq_length: 512
+
+# LoRA config
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+
+# Training config
+training:
+  epochs: 5
+  batch_size: 2
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  warmup_ratio: 0.1
+  output_dir: "./results/marathi-mitra-v1"
+
+# Dataset config
+data:
+  train_file: "./data/vocabulary_dataset.json"
+  test_split: 0.1
+  text_field: "text"
+
+# App config
+app:
+  title: "🌸 Marathi Mitra"
+  max_new_tokens: 250
+  temperature: 0.7

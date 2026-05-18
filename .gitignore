@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model checkpoints (too large for GitHub)
+results/
+*.bin
+*.safetensors
+*.pt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+__pycache__/
+*.pyc
