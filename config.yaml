@@ -1,12 +1,21 @@
-# Model config
+# ═══════════════════════════════════════════════════════════
+# config.yaml — Marathi Mitra
+# Best hyperparameters found via experiments in
+# notebooks/02_finetune.ipynb
+#
+# Used by: src/train.py
+# To reproduce best model: python src/train.py
+# ═══════════════════════════════════════════════════════════
+
+# ── Model ───────────────────────────────────────────────────
 model:
   name: "microsoft/Phi-3-mini-4k-instruct"
   max_seq_length: 512
 
-# LoRA config
+# ── LoRA Adapter ────────────────────────────────────────────
 lora:
-  r: 16
-  alpha: 32
+  r: 16                      # rank — update after experiments
+  alpha: 32                  # always 2x rank
   dropout: 0.05
   target_modules:
     - q_proj
@@ -14,23 +23,23 @@ lora:
     - v_proj
     - o_proj
 
-# Training config
+# ── Training ────────────────────────────────────────────────
 training:
-  epochs: 5
+  learning_rate: 0.0002      # update with winning value
+  epochs: 25                 # update with winning value
   batch_size: 2
   gradient_accumulation_steps: 4
-  learning_rate: 0.0002
   warmup_ratio: 0.1
-  output_dir: "./results/marathi-mitra-v1"
+  fp16: true
+  logging_steps: 10
+  output_dir: "./results/best_model"
 
-# Dataset config
+# ── Data ────────────────────────────────────────────────────
 data:
-  train_file: "./data/vocabulary_dataset.json"
-  test_split: 0.1
-  text_field: "text"
+  vocabulary_file: "./data/vocabulary.json"
+  dataset_file:    "./data/vocabulary_dataset.json"
+  text_field:      "text"
 
-# App config
-app:
-  title: "🌸 Marathi Mitra"
-  max_new_tokens: 250
-  temperature: 0.7
+# ── Hugging Face ────────────────────────────────────────────
+huggingface:
+  model_repo: "ninadp/marathi-mitra-phi3"  
