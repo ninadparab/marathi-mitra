@@ -41,12 +41,14 @@ CATEGORIES = {
 ALL_QUICK_WORDS = [w for words in CATEGORIES.values() for w in words]
 
 
-# ── Load model ────────────────────────────────────────────────
+# ── Load model ────────────────────────────────────────────
 def load_model():
-    """Load fine-tuned model from Hugging Face Hub."""
-    print(f"Loading model from {MODEL_REPO}...")
+    BASE_MODEL = "microsoft/Phi-3-mini-4k-instruct"
+    ADAPTER    = MODEL_REPO
 
     use_gpu = torch.cuda.is_available()
+    print(f"Step 1: Loading base model...")
+    print(f"        {BASE_MODEL}")
 
     if use_gpu:
         bnb_config = BitsAndBytesConfig(
@@ -55,33 +57,42 @@ def load_model():
             bnb_4bit_compute_dtype=torch.float16,
             bnb_4bit_use_double_quant=True,
         )
-        model = AutoModelForCausalLM.from_pretrained(
-            MODEL_REPO,
+        base_model = AutoModelForCausalLM.from_pretrained(
+            BASE_MODEL,
             quantization_config=bnb_config,
             device_map="auto",
             trust_remote_code=True,
-            token=HF_TOKEN,
+            attn_implementation="eager",
         )
     else:
-        # CPU fallback — slow but works for local testing
-        model = AutoModelForCausalLM.from_pretrained(
-            MODEL_REPO,
-            torch_dtype=torch.float32,
+        base_model = AutoModelForCausalLM.from_pretrained(
+            BASE_MODEL,
+            torch_dtype=torch.float16,
             trust_remote_code=True,
-            token=HF_TOKEN,
+            low_cpu_mem_usage=True,
+            attn_implementation="eager",
         )
 
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_REPO,
-        trust_remote_code=True,
+    print(f"Step 2: Loading adapter...")
+    print(f"        {ADAPTER}")
+    from peft import PeftModel
+    model = PeftModel.from_pretrained(
+        base_model,
+        ADAPTER,
         token=HF_TOKEN,
+    )
+    model.eval()
+
+    print(f"Step 3: Loading tokenizer...")
+    tokenizer = AutoTokenizer.from_pretrained(
+        BASE_MODEL,
+        trust_remote_code=True,
     )
     tokenizer.pad_token    = tokenizer.eos_token
     tokenizer.padding_side = "right"
-    model.eval()
 
-    device = "GPU ✅" if use_gpu else "CPU ⚠️ (slow)"
-    print(f"✅ Model loaded on {device}")
+    device = "GPU ✅" if use_gpu else "CPU ⚠️"
+    print(f"✅ Model ready on {device}")
     return model, tokenizer
 
 
