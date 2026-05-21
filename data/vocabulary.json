@@ -1878,5 +1878,134 @@
         "sentence": "उद्या भेटू, निरोप.",
         "translation": "See you tomorrow, goodbye.",
         "fun_fact": "निरोप घेताना पुन्हा भेटण्याची आशा असते! 👋"
-    }
+    },
+    {
+        "word": "rainbow",
+        "marathi": "इंद्रधनुष्य",
+        "pronunciation": "In-dra-dha-nu-shya",
+        "sentence": "पावसानंतर इंद्रधनुष्य दिसते.",
+        "translation": "Rainbow appears after rain.",
+        "fun_fact": "इंद्रधनुष्यात सात रंग असतात! 🌈"
+    },
+    {
+        "word": "shadow",
+        "marathi": "सावली",
+        "pronunciation": "Saa-va-li",
+        "sentence": "झाडाची सावली थंड असते.",
+        "translation": "The shadow of a tree is cool.",
+        "fun_fact": "दुपारी सावली लहान आणि सकाळी मोठी असते! 🌥️"
+    },
+    {
+        "word": "dream",
+        "marathi": "स्वप्न",
+        "pronunciation": "Swa-pna",
+        "sentence": "मी रात्री गोड स्वप्न पाहिले.",
+        "translation": "I had a sweet dream at night.",
+        "fun_fact": "मोठी स्वप्ने पाहणे यशाची सुरुवात आहे! 💭"
+    },
+    {
+        "word": "courage",
+        "marathi": "धाडस",
+        "pronunciation": "Dhaa-das",
+        "sentence": "धाडसाने काम केल्यावर यश मिळते.",
+        "translation": "Success comes with courage.",
+        "fun_fact": "शिवाजी महाराजांचे धाडस अतुलनीय होते! 💪"
+    },
+    {
+        "word": "patience",
+        "marathi": "संयम",
+        "pronunciation": "San-yam",
+        "sentence": "संयमाने काम केल्यावर यश मिळते.",
+        "translation": "Success comes with patience.",
+        "fun_fact": "संयम हा माणसाचा सर्वात मोठा गुण आहे! 🧘"
+    },
+    {
+        "word": "respect",
+        "marathi": "आदर",
+        "pronunciation": "Aa-dar",
+        "sentence": "मोठ्यांना आदर द्यावा.",
+        "translation": "Give respect to elders.",
+        "fun_fact": "आदर दिल्याने आदर मिळतो! 🙏"
+    },
+    {
+        "word": "mistake",
+        "marathi": "चूक",
+        "pronunciation": "Chook",
+        "sentence": "चुकीतून शिकणे महत्त्वाचे आहे.",
+        "translation": "Learning from mistakes is important.",
+        "fun_fact": "चूक मान्य करणे शहाणपणाचे आहे! ✅"
+    },
+    {
+        "word": "victory",
+        "marathi": "विजय",
+        "pronunciation": "Vi-jay",
+        "sentence": "मेहनतीने विजय मिळतो.",
+        "translation": "Victory is achieved through hard work.",
+        "fun_fact": "विजयासाठी चिकाटी आवश्यक आहे! 🏆"
+    },
+    {
+        "word": "knowledge",
+        "marathi": "ज्ञान",
+        "pronunciation": "Dnyaan",
+        "sentence": "ज्ञान हेच खरे धन आहे.",
+        "translation": "Knowledge is the true wealth.",
+        "fun_fact": "ज्ञान कधीच चोरता येत नाही! 📚"
+    },
+    {
+        "word": "peace",
+        "marathi": "शांती",
+        "pronunciation": "Shaan-ti",
+        "sentence": "मनात शांती असणे महत्त्वाचे आहे.",
+        "translation": "It is important to have peace of mind.",
+        "fun_fact": "शांत मनाने चांगले निर्णय घेता येतात! 🕊️"
+    },
+    {
+        "word": "hope",
+        "marathi": "आशा",
+        "pronunciation": "Aa-shaa",
+        "sentence": "आशा असेपर्यंत जीवन आहे.",
+        "translation": "Life exists as long as there is hope.",
+        "fun_fact": "आशावादी माणूस नेहमी पुढे जातो! 🌟"
+    },
+    {
+        "word": "nature",
+        "marathi": "निसर्ग",
+        "pronunciation": "Ni-sar-ga",
+        "sentence": "निसर्ग खूप सुंदर आहे.",
+        "translation": "Nature is very beautiful.",
+        "fun_fact": "निसर्गाचे रक्षण करणे आपले कर्तव्य आहे! 🌿"
+    },
+    {
+        "word": "environment",
+        "marathi": "पर्यावरण",
+        "pronunciation": "Par-yaa-va-ran",
+        "sentence": "पर्यावरण स्वच्छ ठेवा.",
+        "translation": "Keep the environment clean.",
+        "fun_fact": "पर्यावरण रक्षणासाठी झाडे लावा! 🌱"
+    },
+    {
+        "word": "exercise",
+        "marathi": "व्यायाम",
+        "pronunciation": "Vyaa-yaam",
+        "sentence": "रोज व्यायाम केल्याने शरीर निरोगी राहते.",
+        "translation": "Daily exercise keeps the body healthy.",
+        "fun_fact": "व्यायाम हे उत्तम औषध आहे! 🏃"
+    },
+    {
+        "word": "smile",
+        "marathi": "हास्य",
+        "pronunciation": "Haas-ya",
+        "sentence": "हास्य हे सर्वोत्तम औषध आहे.",
+        "translation": "A smile is the best medicine.",
+        "fun_fact": "हसताना फक्त १७ स्नायू वापरतो, रडताना ४३! 😊"
+    },
+    {
+        "word": "eye",
+        "marathi": "डोळा",
+        "pronunciation": "Do-laa",
+        "sentence": "माझे डोळे काळ्या रंगाचे आहेत.",
+        "translation": "My eyes are black in colour.",
+        "fun_fact": "डोळे हे शरीराचे सर्वात महत्त्वाचे अवयव आहेत! 👁️"
+    }    
+    
 ]
