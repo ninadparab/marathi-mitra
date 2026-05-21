@@ -5,7 +5,7 @@
         "pronunciation": "Phul-pakh-roo",
         "sentence": "फुलपाखरू फुलांवर बसते.",
         "translation": "The butterfly sits on flowers.",
-        "fun_fact": "फूल म्हणजे flower + पाखरू म्हणजे bird — flower-bird! 🦋"
+        "fun_fact": "फूल म्हणजे flower + पाखरू म्हणजे bird! 🦋"
     },
     {
         "word": "sun",
@@ -29,7 +29,7 @@
         "pronunciation": "Paa-oos",
         "sentence": "आज खूप पाऊस पडत आहे.",
         "translation": "It is raining a lot today.",
-        "fun_fact": "पावसाचे पाणी आधी समुद्रातून येते! 🌧️"
+        "fun_fact": "पावसाचे पाणी समुद्रातून येते! 🌧️"
     },
     {
         "word": "flower",
@@ -42,7 +42,7 @@
     {
         "word": "tree",
         "marathi": "झाड",
-        "pronunciation": "zaad",
+        "pronunciation": "Jhaad",
         "sentence": "आंब्याचे झाड खूप मोठे आहे.",
         "translation": "The mango tree is very big.",
         "fun_fact": "झाडे आपल्याला ऑक्सिजन देतात! 🌳"
@@ -53,7 +53,7 @@
         "pronunciation": "Na-dee",
         "sentence": "नदीत मासे पोहतात.",
         "translation": "Fish swim in the river.",
-        "fun_fact": "गंगा भारतातील सर्वात मोठी नदी आहे! 🌊"
+        "fun_fact": "भारतात गंगा सर्वात मोठी नदी आहे! 🌊"
     },
     {
         "word": "mountain",
@@ -80,11 +80,91 @@
         "fun_fact": "आपल्या शरीरात ७०% पाणी आहे! 💧"
     },
     {
+        "word": "fire",
+        "marathi": "आग",
+        "pronunciation": "Aag",
+        "sentence": "आग खूप गरम असते.",
+        "translation": "Fire is very hot.",
+        "fun_fact": "आग शिजवण्यासाठी उपयोगी आहे! 🔥"
+    },
+    {
+        "word": "wind",
+        "marathi": "वारा",
+        "pronunciation": "Vaa-raa",
+        "sentence": "आज खूप वारा आहे.",
+        "translation": "There is a lot of wind today.",
+        "fun_fact": "वारा झाडांना हलवतो! 🌬️"
+    },
+    {
+        "word": "cloud",
+        "marathi": "ढग",
+        "pronunciation": "Dhag",
+        "sentence": "आकाशात काळे ढग आहेत.",
+        "translation": "There are dark clouds in the sky.",
+        "fun_fact": "ढगांमधून पाऊस पडतो! ☁️"
+    },
+    {
+        "word": "star",
+        "marathi": "तारा",
+        "pronunciation": "Taa-raa",
+        "sentence": "रात्री आकाशात तारे चमकतात.",
+        "translation": "Stars shine in the sky at night.",
+        "fun_fact": "सूर्य पण एक तारा आहे! ⭐"
+    },
+    {
+        "word": "earth",
+        "marathi": "पृथ्वी",
+        "pronunciation": "Pru-thvi",
+        "sentence": "पृथ्वी सूर्याभोवती फिरते.",
+        "translation": "The earth revolves around the sun.",
+        "fun_fact": "पृथ्वीवर पाणी आणि जमीन आहे! 🌍"
+    },
+    {
+        "word": "sand",
+        "marathi": "वाळू",
+        "pronunciation": "Vaa-loo",
+        "sentence": "समुद्रावर वाळू आहे.",
+        "translation": "There is sand at the beach.",
+        "fun_fact": "वाळू लहान दगडांपासून बनते! 🏖️"
+    },
+    {
+        "word": "stone",
+        "marathi": "दगड",
+        "pronunciation": "Da-gad",
+        "sentence": "नदीत गुळगुळीत दगड आहेत.",
+        "translation": "There are smooth stones in the river.",
+        "fun_fact": "दगडापासून घरे बांधतात! 🪨"
+    },
+    {
+        "word": "forest",
+        "marathi": "जंगल",
+        "pronunciation": "Jan-gal",
+        "sentence": "जंगलात अनेक प्राणी राहतात.",
+        "translation": "Many animals live in the forest.",
+        "fun_fact": "जंगल पृथ्वीचे फुफ्फुस आहे! 🌲"
+    },
+    {
+        "word": "ocean",
+        "marathi": "समुद्र",
+        "pronunciation": "Sa-mu-dra",
+        "sentence": "समुद्र खूप खोल आहे.",
+        "translation": "The ocean is very deep.",
+        "fun_fact": "पृथ्वीचा ७०% भाग समुद्र आहे! 🌊"
+    },
+    {
+        "word": "lake",
+        "marathi": "तलाव",
+        "pronunciation": "Ta-laav",
+        "sentence": "तलावात कमळे फुलतात.",
+        "translation": "Lotuses bloom in the lake.",
+        "fun_fact": "तलावात मासे आणि कमळे असतात! 🪷"
+    },
+    {
         "word": "cat",
         "marathi": "मांजर",
         "pronunciation": "Maan-jar",
-        "sentence": "एक छोटी मांजर होती.",
-        "translation": "There was a small cat.",
+        "sentence": "मांजर दूध पिते.",
+        "translation": "The cat drinks milk.",
         "fun_fact": "मांजराला रात्री चांगले दिसते! 🐱"
     },
     {
@@ -117,7 +197,7 @@
         "pronunciation": "Hat-tee",
         "sentence": "हत्ती खूप मोठा प्राणी आहे.",
         "translation": "The elephant is a very big animal.",
-        "fun_fact": "हत्तीला पाण्याने आंघोळ करायला आवडते! 🐘"
+        "fun_fact": "हत्ती पाण्याने आंघोळ करायला आवडते! 🐘"
     },
     {
         "word": "cow",
@@ -144,6 +224,102 @@
         "fun_fact": "पोपट माणसाचे बोलणे शिकतो! 🦜"
     },
     {
+        "word": "lion",
+        "marathi": "सिंह",
+        "pronunciation": "Sin-ha",
+        "sentence": "सिंह जंगलाचा राजा आहे.",
+        "translation": "The lion is the king of the jungle.",
+        "fun_fact": "सिंहाची डरकाळी खूप दूर ऐकू येते! 🦁"
+    },
+    {
+        "word": "tiger",
+        "marathi": "वाघ",
+        "pronunciation": "Vaagh",
+        "sentence": "वाघ जंगलात राहतो.",
+        "translation": "The tiger lives in the forest.",
+        "fun_fact": "वाघ भारताचा राष्ट्रीय प्राणी आहे! 🐯"
+    },
+    {
+        "word": "horse",
+        "marathi": "घोडा",
+        "pronunciation": "Gho-daa",
+        "sentence": "घोडा खूप वेगाने धावतो.",
+        "translation": "The horse runs very fast.",
+        "fun_fact": "घोडा उभा राहूनच झोपतो! 🐴"
+    },
+    {
+        "word": "rabbit",
+        "marathi": "ससा",
+        "pronunciation": "Sa-saa",
+        "sentence": "ससा गाजर खातो.",
+        "translation": "The rabbit eats carrots.",
+        "fun_fact": "ससा खूप वेगाने उड्या मारतो! 🐰"
+    },
+    {
+        "word": "snake",
+        "marathi": "साप",
+        "pronunciation": "Saap",
+        "sentence": "साप गवतात लपतो.",
+        "translation": "The snake hides in the grass.",
+        "fun_fact": "साप जीभेने वास घेतो! 🐍"
+    },
+    {
+        "word": "frog",
+        "marathi": "बेडूक",
+        "pronunciation": "Be-dook",
+        "sentence": "बेडूक डबक्यात उड्या मारतो.",
+        "translation": "The frog jumps in the puddle.",
+        "fun_fact": "बेडूक पावसात खूप ओरडतो! 🐸"
+    },
+    {
+        "word": "ant",
+        "marathi": "मुंगी",
+        "pronunciation": "Mun-gee",
+        "sentence": "मुंगी साखर उचलते.",
+        "translation": "The ant carries sugar.",
+        "fun_fact": "मुंगी स्वतःपेक्षा ५० पट जड वस्तू उचलते! 🐜"
+    },
+    {
+        "word": "bee",
+        "marathi": "मधमाशी",
+        "pronunciation": "Madh-maa-shi",
+        "sentence": "मधमाशी फुलांवर बसते.",
+        "translation": "The bee sits on flowers.",
+        "fun_fact": "मधमाशी मध बनवते! 🐝"
+    },
+    {
+        "word": "peacock",
+        "marathi": "मोर",
+        "pronunciation": "Mor",
+        "sentence": "मोर पिसारा पसरवतो.",
+        "translation": "The peacock spreads its feathers.",
+        "fun_fact": "मोर भारताचा राष्ट्रीय पक्षी आहे! 🦚"
+    },
+    {
+        "word": "sparrow",
+        "marathi": "चिमणी",
+        "pronunciation": "Chi-ma-ni",
+        "sentence": "चिमणी दाणे खाते.",
+        "translation": "The sparrow eats grains.",
+        "fun_fact": "चिमणी घराजवळ घरटे बनवते! 🐦"
+    },
+    {
+        "word": "crow",
+        "marathi": "कावळा",
+        "pronunciation": "Kaa-va-laa",
+        "sentence": "कावळा काव काव करतो.",
+        "translation": "The crow crows.",
+        "fun_fact": "कावळा खूप हुशार पक्षी आहे! 🐦‍⬛"
+    },
+    {
+        "word": "buffalo",
+        "marathi": "म्हैस",
+        "pronunciation": "Mhais",
+        "sentence": "म्हैस काळ्या रंगाची असते.",
+        "translation": "The buffalo is black in colour.",
+        "fun_fact": "म्हैस दूध देते आणि शेतात काम करते! 🐃"
+    },
+    {
         "word": "mother",
         "marathi": "आई",
         "pronunciation": "Aa-ee",
@@ -155,9 +331,9 @@
         "word": "father",
         "marathi": "बाबा",
         "pronunciation": "Baa-baa",
-        "sentence": "बाबा मला सायकल शिकवतो.",
+        "sentence": "बाबा मला सायकल शिकवतात.",
         "translation": "Father teaches me how to ride a bicycle.",
-        "fun_fact": "बाबा हा शब्द जगभर वापरतात — तुर्की, स्वाहिली, हिंदी, अरबी भाषेतही बाबा म्हणजे वडीलच! 👨"
+        "fun_fact": "बाबा हा शब्द ५० पेक्षा जास्त भाषांमध्ये वापरतात! 👨"
     },
     {
         "word": "sister",
@@ -171,8 +347,8 @@
         "word": "brother",
         "marathi": "भाऊ",
         "pronunciation": "Bhaau",
-        "sentence": "माझा भाऊ खेळतो.",
-        "translation": "My brother plays.",
+        "sentence": "माझा भाऊ क्रिकेट खेळतो.",
+        "translation": "My brother plays cricket.",
         "fun_fact": "भाऊ म्हणजे आयुष्यातील पहिला मित्र! 👦"
     },
     {
@@ -190,6 +366,38 @@
         "sentence": "आजोबा बागेत फिरतात.",
         "translation": "Grandfather walks in the garden.",
         "fun_fact": "आजोबांकडे खूप अनुभव असतो! 👴"
+    },
+    {
+        "word": "uncle",
+        "marathi": "काका",
+        "pronunciation": "Kaa-kaa",
+        "sentence": "काका आज आमच्याकडे आले.",
+        "translation": "Uncle came to our house today.",
+        "fun_fact": "काका म्हणजे बाबांचा भाऊ! 👨"
+    },
+    {
+        "word": "aunt",
+        "marathi": "काकू",
+        "pronunciation": "Kaa-koo",
+        "sentence": "काकूंनी गोड जेवण बनवले.",
+        "translation": "Aunt made sweet food.",
+        "fun_fact": "काकू म्हणजे काकांची पत्नी! 👩"
+    },
+    {
+        "word": "friend",
+        "marathi": "मित्र",
+        "pronunciation": "Mi-tra",
+        "sentence": "माझा मित्र खूप चांगला आहे.",
+        "translation": "My friend is very good.",
+        "fun_fact": "खरा मित्र नेहमी मदत करतो! 🤝"
+    },
+    {
+        "word": "child",
+        "marathi": "मूल",
+        "pronunciation": "Mool",
+        "sentence": "ते मूल खूप गोड आहे.",
+        "translation": "That child is very sweet.",
+        "fun_fact": "मुलांचे हसणे सर्वांना आनंद देते! 👶"
     },
     {
         "word": "school",
@@ -216,12 +424,180 @@
         "fun_fact": "एका पेन्सिलने ५० किमी लिहिता येते! ✏️"
     },
     {
+        "word": "pen",
+        "marathi": "लेखणी",
+        "pronunciation": "Le-kha-ni",
+        "sentence": "लेखणीने सुंदर अक्षर येते.",
+        "translation": "Beautiful writing comes with a pen.",
+        "fun_fact": "लेखणी ज्ञानाचे शस्त्र आहे! 🖊️"
+    },
+    {
+        "word": "bag",
+        "marathi": "पिशवी",
+        "pronunciation": "Pi-sha-vi",
+        "sentence": "माझ्या पिशवीत पुस्तके आहेत.",
+        "translation": "There are books in my bag.",
+        "fun_fact": "शाळेची पिशवी ज्ञानाने भरलेली असते! 🎒"
+    },
+    {
+        "word": "teacher",
+        "marathi": "शिक्षक",
+        "pronunciation": "Shik-shak",
+        "sentence": "शिक्षक आम्हाला शिकवतात.",
+        "translation": "The teacher teaches us.",
+        "fun_fact": "शिक्षक समाजाचे घडवणार असतात! 👨‍🏫"
+    },
+    {
+        "word": "classroom",
+        "marathi": "वर्ग",
+        "pronunciation": "Var-ga",
+        "sentence": "वर्गात मुले बसली आहेत.",
+        "translation": "Children are sitting in the classroom.",
+        "fun_fact": "वर्गात शिकणे खूप मजेदार असते! 🏫"
+    },
+    {
+        "word": "homework",
+        "marathi": "गृहपाठ",
+        "pronunciation": "Gru-ha-paath",
+        "sentence": "मी गृहपाठ केला.",
+        "translation": "I did my homework.",
+        "fun_fact": "गृहपाठ केल्याने आपण हुशार होतो! 📝"
+    },
+    {
+        "word": "exam",
+        "marathi": "परीक्षा",
+        "pronunciation": "Pa-reek-shaa",
+        "sentence": "उद्या माझी परीक्षा आहे.",
+        "translation": "I have an exam tomorrow.",
+        "fun_fact": "परीक्षेत चांगले गुण मिळवण्यासाठी अभ्यास करा! 📝"
+    },
+    {
+        "word": "holiday",
+        "marathi": "सुट्टी",
+        "pronunciation": "Sut-tee",
+        "sentence": "आज शाळेला सुट्टी आहे.",
+        "translation": "There is a holiday from school today.",
+        "fun_fact": "सुट्टीत खेळणे खूप मजेदार असते! 🎉"
+    },
+    {
         "word": "food",
         "marathi": "जेवण",
         "pronunciation": "Je-van",
         "sentence": "आज जेवण खूप चविष्ट आहे.",
         "translation": "Today the food is very tasty.",
         "fun_fact": "भारतात प्रत्येक राज्यात वेगळे जेवण असते! 🍛"
+    },
+    {
+        "word": "rice",
+        "marathi": "भात",
+        "pronunciation": "Bhaat",
+        "sentence": "मला भात आणि आमटी आवडते.",
+        "translation": "I like rice and dal.",
+        "fun_fact": "भात हे महाराष्ट्राचे मुख्य अन्न आहे! 🍚"
+    },
+    {
+        "word": "bread",
+        "marathi": "पोळी",
+        "pronunciation": "Po-li",
+        "sentence": "आई रोज पोळी करते.",
+        "translation": "Mother makes bread every day.",
+        "fun_fact": "पोळी गव्हापासून बनते! 🫓"
+    },
+    {
+        "word": "milk",
+        "marathi": "दूध",
+        "pronunciation": "Doodh",
+        "sentence": "मी रोज दूध पितो.",
+        "translation": "I drink milk every day.",
+        "fun_fact": "दुधात कॅल्शियम असते जे हाडे मजबूत करते! 🥛"
+    },
+    {
+        "word": "fruit",
+        "marathi": "फळ",
+        "pronunciation": "Phal",
+        "sentence": "फळे खाणे आरोग्यासाठी चांगले आहे.",
+        "translation": "Eating fruits is good for health.",
+        "fun_fact": "भारतात आंबा राष्ट्रीय फळ आहे! 🍎"
+    },
+    {
+        "word": "mango",
+        "marathi": "आंबा",
+        "pronunciation": "Aam-baa",
+        "sentence": "आंबा खूप गोड आहे.",
+        "translation": "The mango is very sweet.",
+        "fun_fact": "आंबा भारताचा राष्ट्रीय फळ आहे! 🥭"
+    },
+    {
+        "word": "banana",
+        "marathi": "केळ",
+        "pronunciation": "Ke-la",
+        "sentence": "माकडाला केळ आवडते.",
+        "translation": "The monkey likes bananas.",
+        "fun_fact": "केळात भरपूर पोटॅशियम असते! 🍌"
+    },
+    {
+        "word": "apple",
+        "marathi": "सफरचंद",
+        "pronunciation": "Sa-far-chand",
+        "sentence": "सफरचंद लाल आणि गोड आहे.",
+        "translation": "The apple is red and sweet.",
+        "fun_fact": "रोज एक सफरचंद खाणे आरोग्यासाठी चांगले! 🍎"
+    },
+    {
+        "word": "grapes",
+        "marathi": "द्राक्षे",
+        "pronunciation": "Draak-she",
+        "sentence": "द्राक्षे गोड आणि रसदार आहेत.",
+        "translation": "Grapes are sweet and juicy.",
+        "fun_fact": "नाशिक द्राक्षांसाठी प्रसिद्ध आहे! 🍇"
+    },
+    {
+        "word": "vegetable",
+        "marathi": "भाजी",
+        "pronunciation": "Bhaa-ji",
+        "sentence": "भाजी खाणे आरोग्यासाठी चांगले आहे.",
+        "translation": "Eating vegetables is good for health.",
+        "fun_fact": "हिरव्या भाज्यांमध्ये भरपूर पोषण असते! 🥦"
+    },
+    {
+        "word": "potato",
+        "marathi": "बटाटा",
+        "pronunciation": "Ba-taa-taa",
+        "sentence": "बटाट्याची भाजी खूप चविष्ट आहे.",
+        "translation": "Potato vegetable is very tasty.",
+        "fun_fact": "बटाटा जगातील सर्वात जास्त खाल्ले जाणारे अन्न आहे! 🥔"
+    },
+    {
+        "word": "onion",
+        "marathi": "कांदा",
+        "pronunciation": "Kaan-daa",
+        "sentence": "कांदा चिरताना डोळे येतात.",
+        "translation": "Eyes water while cutting onions.",
+        "fun_fact": "कांद्यात अनेक औषधी गुण आहेत! 🧅"
+    },
+    {
+        "word": "tomato",
+        "marathi": "टोमॅटो",
+        "pronunciation": "To-mae-to",
+        "sentence": "टोमॅटो लाल आणि रसदार आहे.",
+        "translation": "Tomato is red and juicy.",
+        "fun_fact": "टोमॅटो फळ आहे पण आपण भाजी म्हणून वापरतो! 🍅"
+    },
+    {
+        "word": "sugar",
+        "marathi": "साखर",
+        "pronunciation": "Saa-khar",
+        "sentence": "चहात साखर घालतात.",
+        "translation": "Sugar is added to tea.",
+        "fun_fact": "महाराष्ट्र उसाच्या उत्पादनात आघाडीवर आहे! 🍬"
+    },
+    {
+        "word": "salt",
+        "marathi": "मीठ",
+        "pronunciation": "Meeth",
+        "sentence": "जेवणात मीठ लागते.",
+        "translation": "Salt is needed in food.",
+        "fun_fact": "मीठ समुद्राच्या पाण्यापासून मिळते! 🧂"
     },
     {
         "word": "house",
@@ -232,11 +608,1275 @@
         "fun_fact": "घर म्हणजे आनंदाचे ठिकाण! 🏠"
     },
     {
-        "word": "friend",
-        "marathi": "मित्र",
-        "pronunciation": "Mi-tra",
-        "sentence": "माझा मित्र खूप चांगला आहे.",
-        "translation": "My friend is very good.",
-        "fun_fact": "खरा मित्र नेहमी मदत करतो! 🤝"
+        "word": "door",
+        "marathi": "दरवाजा",
+        "pronunciation": "Da-ra-vaa-jaa",
+        "sentence": "दरवाजा उघडा आहे.",
+        "translation": "The door is open.",
+        "fun_fact": "दरवाजा घराचे प्रवेशद्वार असतो! 🚪"
+    },
+    {
+        "word": "window",
+        "marathi": "खिडकी",
+        "pronunciation": "Khi-da-ki",
+        "sentence": "खिडकीतून सूर्यप्रकाश येतो.",
+        "translation": "Sunlight comes through the window.",
+        "fun_fact": "खिडकीतून ताजी हवा आत येते! 🪟"
+    },
+    {
+        "word": "kitchen",
+        "marathi": "स्वयंपाकघर",
+        "pronunciation": "Swa-yam-paak-ghar",
+        "sentence": "आई स्वयंपाकघरात जेवण बनवते.",
+        "translation": "Mother cooks food in the kitchen.",
+        "fun_fact": "स्वयंपाकघर म्हणजे घरातील सर्वात उपयुक्त खोली! 🍳"
+    },
+    {
+        "word": "bed",
+        "marathi": "पलंग",
+        "pronunciation": "Pa-lang",
+        "sentence": "मी पलंगावर झोपतो.",
+        "translation": "I sleep on the bed.",
+        "fun_fact": "चांगली झोप आरोग्यासाठी महत्त्वाची आहे! 🛏️"
+    },
+    {
+        "word": "chair",
+        "marathi": "खुर्ची",
+        "pronunciation": "Khur-chi",
+        "sentence": "खुर्चीवर बसा.",
+        "translation": "Sit on the chair.",
+        "fun_fact": "खुर्ची लाकडापासून बनवतात! 🪑"
+    },
+    {
+        "word": "table",
+        "marathi": "टेबल",
+        "pronunciation": "Te-bal",
+        "sentence": "टेबलावर पुस्तके आहेत.",
+        "translation": "There are books on the table.",
+        "fun_fact": "टेबलावर बसून अभ्यास केल्याने लक्ष चांगले लागते! 🪵"
+    },
+    {
+        "word": "clock",
+        "marathi": "घड्याळ",
+        "pronunciation": "Gha-dyaa-al",
+        "sentence": "घड्याळात किती वाजले?",
+        "translation": "What time is it in the clock?",
+        "fun_fact": "घड्याळ वेळ दाखवते! ⏰"
+    },
+    {
+        "word": "mirror",
+        "marathi": "आरसा",
+        "pronunciation": "Aa-ra-saa",
+        "sentence": "आरशात आपला चेहरा दिसतो.",
+        "translation": "We see our face in the mirror.",
+        "fun_fact": "आरसा काचेपासून बनतो! 🪞"
+    },
+    {
+        "word": "road",
+        "marathi": "रस्ता",
+        "pronunciation": "Ras-taa",
+        "sentence": "रस्त्यावर गाड्या धावतात.",
+        "translation": "Cars run on the road.",
+        "fun_fact": "भारतात जगातील दुसऱ्या क्रमांकाचे रस्ते आहेत! 🛣️"
+    },
+    {
+        "word": "car",
+        "marathi": "गाडी",
+        "pronunciation": "Gaa-di",
+        "sentence": "आमची गाडी नवीन आहे.",
+        "translation": "Our car is new.",
+        "fun_fact": "गाडी पेट्रोल किंवा विजेवर चालते! 🚗"
+    },
+    {
+        "word": "bus",
+        "marathi": "बस",
+        "pronunciation": "Bas",
+        "sentence": "मी बसने शाळेत जातो.",
+        "translation": "I go to school by bus.",
+        "fun_fact": "बसमध्ये एकावेळी अनेक लोक जाऊ शकतात! 🚌"
+    },
+    {
+        "word": "train",
+        "marathi": "आगीनगाडी",
+        "pronunciation": "Aa-geen-gaa-di",
+        "sentence": "आगीनगाडी रुळावरून धावते.",
+        "translation": "The train runs on rails.",
+        "fun_fact": "भारतीय रेल्वे जगातील सर्वात मोठ्या रेल्वेंपैकी एक आहे! 🚂"
+    },
+    {
+        "word": "bicycle",
+        "marathi": "सायकल",
+        "pronunciation": "Saa-ya-kal",
+        "sentence": "मी सायकल चालवतो.",
+        "translation": "I ride a bicycle.",
+        "fun_fact": "सायकल चालवणे आरोग्यासाठी खूप चांगले आहे! 🚲"
+    },
+    {
+        "word": "airplane",
+        "marathi": "विमान",
+        "pronunciation": "Vi-maan",
+        "sentence": "विमान आकाशात उडते.",
+        "translation": "The airplane flies in the sky.",
+        "fun_fact": "विमानातून खूप दूर लवकर जाता येते! ✈️"
+    },
+    {
+        "word": "boat",
+        "marathi": "होडी",
+        "pronunciation": "Ho-di",
+        "sentence": "होडी पाण्यावर तरंगते.",
+        "translation": "The boat floats on water.",
+        "fun_fact": "होडी माशांसाठी खूप उपयुक्त आहे! ⛵"
+    },
+    {
+        "word": "morning",
+        "marathi": "सकाळ",
+        "pronunciation": "Sa-kaal",
+        "sentence": "सकाळी लवकर उठणे चांगले आहे.",
+        "translation": "It is good to wake up early in the morning.",
+        "fun_fact": "सकाळी व्यायाम केल्याने दिवस चांगला जातो! 🌅"
+    },
+    {
+        "word": "evening",
+        "marathi": "संध्याकाळ",
+        "pronunciation": "San-dhyaa-kaal",
+        "sentence": "संध्याकाळी आकाश लाल होते.",
+        "translation": "The sky turns red in the evening.",
+        "fun_fact": "संध्याकाळी खेळायला मजा येते! 🌆"
+    },
+    {
+        "word": "night",
+        "marathi": "रात्र",
+        "pronunciation": "Raa-tra",
+        "sentence": "रात्री चंद्र आणि तारे दिसतात.",
+        "translation": "The moon and stars are visible at night.",
+        "fun_fact": "रात्री झोपणे आरोग्यासाठी महत्त्वाचे आहे! 🌙"
+    },
+    {
+        "word": "today",
+        "marathi": "आज",
+        "pronunciation": "Aaj",
+        "sentence": "आज खूप छान दिवस आहे.",
+        "translation": "Today is a very nice day.",
+        "fun_fact": "आज हा दिवस सर्वात महत्त्वाचा आहे! 📅"
+    },
+    {
+        "word": "tomorrow",
+        "marathi": "उद्या",
+        "pronunciation": "Ud-yaa",
+        "sentence": "उद्या शाळेला सुट्टी आहे.",
+        "translation": "Tomorrow there is a holiday from school.",
+        "fun_fact": "उद्या नवीन संधी घेऊन येतो! 🌟"
+    },
+    {
+        "word": "yesterday",
+        "marathi": "काल",
+        "pronunciation": "Kaal",
+        "sentence": "काल आम्ही पिकनिकला गेलो.",
+        "translation": "Yesterday we went for a picnic.",
+        "fun_fact": "काल गेलेले दिवस परत येत नाहीत! ⏳"
+    },
+    {
+        "word": "Monday",
+        "marathi": "सोमवार",
+        "pronunciation": "Som-vaar",
+        "sentence": "सोमवारी शाळा सुरू होते.",
+        "translation": "School starts on Monday.",
+        "fun_fact": "सोमवार हा आठवड्याचा पहिला दिवस आहे! 📅"
+    },
+    {
+        "word": "Sunday",
+        "marathi": "रविवार",
+        "pronunciation": "Ra-vi-vaar",
+        "sentence": "रविवारी सुट्टी असते.",
+        "translation": "Sunday is a holiday.",
+        "fun_fact": "रविवारी कुटुंबासोबत वेळ घालवा! 🎉"
+    },
+    {
+        "word": "red",
+        "marathi": "लाल",
+        "pronunciation": "Laal",
+        "sentence": "गुलाब लाल रंगाचा आहे.",
+        "translation": "The rose is red in colour.",
+        "fun_fact": "लाल रंग प्रेम आणि उत्साहाचे प्रतीक आहे! ❤️"
+    },
+    {
+        "word": "blue",
+        "marathi": "निळा",
+        "pronunciation": "Ni-laa",
+        "sentence": "आकाश निळ्या रंगाचे आहे.",
+        "translation": "The sky is blue in colour.",
+        "fun_fact": "निळा रंग शांतीचे प्रतीक आहे! 💙"
+    },
+    {
+        "word": "green",
+        "marathi": "हिरवा",
+        "pronunciation": "Hi-ra-vaa",
+        "sentence": "झाडांची पाने हिरव्या रंगाची आहेत.",
+        "translation": "The leaves of trees are green in colour.",
+        "fun_fact": "हिरवा रंग निसर्गाचे प्रतीक आहे! 💚"
+    },
+    {
+        "word": "yellow",
+        "marathi": "पिवळा",
+        "pronunciation": "Pi-va-laa",
+        "sentence": "सूर्यफूल पिवळ्या रंगाचे आहे.",
+        "translation": "The sunflower is yellow in colour.",
+        "fun_fact": "पिवळा रंग आनंदाचे प्रतीक आहे! 💛"
+    },
+    {
+        "word": "white",
+        "marathi": "पांढरा",
+        "pronunciation": "Paan-dha-raa",
+        "sentence": "दूध पांढऱ्या रंगाचे आहे.",
+        "translation": "Milk is white in colour.",
+        "fun_fact": "पांढरा रंग शांती आणि पावित्र्याचे प्रतीक आहे! 🤍"
+    },
+    {
+        "word": "black",
+        "marathi": "काळा",
+        "pronunciation": "Kaa-laa",
+        "sentence": "रात्र काळ्या रंगाची आहे.",
+        "translation": "The night is black in colour.",
+        "fun_fact": "काळा रंग शक्तीचे प्रतीक आहे! 🖤"
+    },
+    {
+        "word": "orange",
+        "marathi": "नारिंगी",
+        "pronunciation": "Naa-rin-gi",
+        "sentence": "संत्री नारिंगी रंगाची आहे.",
+        "translation": "The orange fruit is orange in colour.",
+        "fun_fact": "नारिंगी रंग उत्साहाचे प्रतीक आहे! 🧡"
+    },
+    {
+        "word": "pink",
+        "marathi": "गुलाबी",
+        "pronunciation": "Gu-laa-bi",
+        "sentence": "गुलाबी रंग खूप सुंदर आहे.",
+        "translation": "The pink colour is very beautiful.",
+        "fun_fact": "गुलाबी रंग प्रेम आणि कोमलतेचे प्रतीक आहे! 🌸"
+    },
+    {
+        "word": "one",
+        "marathi": "एक",
+        "pronunciation": "Ek",
+        "sentence": "माझ्याकडे एक पुस्तक आहे.",
+        "translation": "I have one book.",
+        "fun_fact": "एक हा पहिला आणि सर्वात महत्त्वाचा आकडा आहे! 1️⃣"
+    },
+    {
+        "word": "two",
+        "marathi": "दोन",
+        "pronunciation": "Don",
+        "sentence": "माझे दोन हात आहेत.",
+        "translation": "I have two hands.",
+        "fun_fact": "दोन डोळे आपल्याला जग बघायला मदत करतात! 2️⃣"
+    },
+    {
+        "word": "three",
+        "marathi": "तीन",
+        "pronunciation": "Teen",
+        "sentence": "त्रिकोणाला तीन बाजू असतात.",
+        "translation": "A triangle has three sides.",
+        "fun_fact": "तीन हा आकडा त्रिकोणाशी संबंधित आहे! 3️⃣"
+    },
+    {
+        "word": "four",
+        "marathi": "चार",
+        "pronunciation": "Chaar",
+        "sentence": "चौकोनाला चार बाजू असतात.",
+        "translation": "A square has four sides.",
+        "fun_fact": "चेअरला चार पाय असतात! 4️⃣"
+    },
+    {
+        "word": "five",
+        "marathi": "पाच",
+        "pronunciation": "Paach",
+        "sentence": "माझ्या हाताला पाच बोटे आहेत.",
+        "translation": "I have five fingers on my hand.",
+        "fun_fact": "आपल्याला दहा बोटे असतात — प्रत्येक हाताला पाच! 5️⃣"
+    },
+    {
+        "word": "ten",
+        "marathi": "दहा",
+        "pronunciation": "Da-haa",
+        "sentence": "दहा आणि दहा मिळून वीस होतात.",
+        "translation": "Ten and ten make twenty.",
+        "fun_fact": "आपण दशमान पद्धतीत दहाच्या आधारे मोजतो! 🔟"
+    },
+    {
+        "word": "hundred",
+        "marathi": "शंभर",
+        "pronunciation": "Sham-bhar",
+        "sentence": "शंभर रुपयांची नोट आहे.",
+        "translation": "There is a hundred rupee note.",
+        "fun_fact": "शंभर टक्के म्हणजे पूर्ण! 💯"
+    },
+    {
+        "word": "big",
+        "marathi": "मोठा",
+        "pronunciation": "Mo-thaa",
+        "sentence": "हत्ती खूप मोठा प्राणी आहे.",
+        "translation": "The elephant is a very big animal.",
+        "fun_fact": "मोठे स्वप्न पाहणे महत्त्वाचे आहे! 🌟"
+    },
+    {
+        "word": "small",
+        "marathi": "लहान",
+        "pronunciation": "La-haan",
+        "sentence": "मुंगी खूप लहान आहे.",
+        "translation": "The ant is very small.",
+        "fun_fact": "लहान गोष्टींचे महत्त्व खूप असते! 🐜"
+    },
+    {
+        "word": "hot",
+        "marathi": "गरम",
+        "pronunciation": "Ga-ram",
+        "sentence": "उन्हाळ्यात खूप गरम असते.",
+        "translation": "It is very hot in summer.",
+        "fun_fact": "गरम चहा थंडीत आराम देतो! ☕"
+    },
+    {
+        "word": "cold",
+        "marathi": "थंड",
+        "pronunciation": "Thand",
+        "sentence": "हिवाळ्यात खूप थंड असते.",
+        "translation": "It is very cold in winter.",
+        "fun_fact": "थंड पाणी उन्हाळ्यात आराम देते! ❄️"
+    },
+    {
+        "word": "good",
+        "marathi": "चांगले",
+        "pronunciation": "Chaan-ga-le",
+        "sentence": "चांगले काम करा.",
+        "translation": "Do good work.",
+        "fun_fact": "चांगले वागणे सर्वांना आनंद देते! 😊"
+    },
+    {
+        "word": "bad",
+        "marathi": "वाईट",
+        "pronunciation": "Vaa-eet",
+        "sentence": "वाईट गोष्टी करू नका.",
+        "translation": "Do not do bad things.",
+        "fun_fact": "वाईट सवयी सोडणे महत्त्वाचे आहे! ⚠️"
+    },
+    {
+        "word": "happy",
+        "marathi": "आनंदी",
+        "pronunciation": "Aa-nan-di",
+        "sentence": "मी आज खूप आनंदी आहे.",
+        "translation": "I am very happy today.",
+        "fun_fact": "आनंदी राहणे आरोग्यासाठी चांगले आहे! 😊"
+    },
+    {
+        "word": "sad",
+        "marathi": "दुःखी",
+        "pronunciation": "Duk-hi",
+        "sentence": "तो आज दुःखी दिसतो.",
+        "translation": "He looks sad today.",
+        "fun_fact": "दुःखात मित्र मदत करतात! 🤗"
+    },
+    {
+        "word": "beautiful",
+        "marathi": "सुंदर",
+        "pronunciation": "Sun-dar",
+        "sentence": "फुलपाखरू खूप सुंदर आहे.",
+        "translation": "The butterfly is very beautiful.",
+        "fun_fact": "सुंदर मन असणे महत्त्वाचे आहे! 💝"
+    },
+    {
+        "word": "fast",
+        "marathi": "वेगवान",
+        "pronunciation": "Veg-vaan",
+        "sentence": "चित्ता सर्वात वेगवान प्राणी आहे.",
+        "translation": "The cheetah is the fastest animal.",
+        "fun_fact": "चित्ता ताशी १२० किमी वेगाने धावतो! 🐆"
+    },
+    {
+        "word": "slow",
+        "marathi": "हळू",
+        "pronunciation": "Ha-loo",
+        "sentence": "कासव हळू चालते.",
+        "translation": "The tortoise walks slowly.",
+        "fun_fact": "हळू पण सतत चालणारा स्पर्धा जिंकतो! 🐢"
+    },
+    {
+        "word": "game",
+        "marathi": "खेळ",
+        "pronunciation": "Khel",
+        "sentence": "खेळ खेळणे मजेदार आहे.",
+        "translation": "Playing games is fun.",
+        "fun_fact": "खेळ शरीर आणि मन दोन्ही निरोगी ठेवतो! ⚽"
+    },
+    {
+        "word": "ball",
+        "marathi": "चेंडू",
+        "pronunciation": "Chen-doo",
+        "sentence": "मुले चेंडू खेळत आहेत.",
+        "translation": "Children are playing with a ball.",
+        "fun_fact": "क्रिकेट भारतात सर्वात लोकप्रिय खेळ आहे! 🏏"
+    },
+    {
+        "word": "run",
+        "marathi": "धावणे",
+        "pronunciation": "Dhaa-va-ne",
+        "sentence": "मी रोज धावतो.",
+        "translation": "I run every day.",
+        "fun_fact": "धावणे हृदयासाठी खूप चांगले आहे! 🏃"
+    },
+    {
+        "word": "swim",
+        "marathi": "पोहणे",
+        "pronunciation": "Po-ha-ne",
+        "sentence": "मला पोहायला आवडते.",
+        "translation": "I like to swim.",
+        "fun_fact": "पोहणे संपूर्ण शरीराचा व्यायाम आहे! 🏊"
+    },
+    {
+        "word": "sing",
+        "marathi": "गाणे",
+        "pronunciation": "Gaa-ne",
+        "sentence": "ती छान गाणे गाते.",
+        "translation": "She sings beautifully.",
+        "fun_fact": "गाणे मनाला आनंद देते! 🎵"
+    },
+    {
+        "word": "dance",
+        "marathi": "नृत्य",
+        "pronunciation": "Nru-tya",
+        "sentence": "ती सुंदर नृत्य करते.",
+        "translation": "She dances beautifully.",
+        "fun_fact": "नृत्य हे भारताची समृद्ध कला आहे! 💃"
+    },
+    {
+        "word": "draw",
+        "marathi": "चित्र काढणे",
+        "pronunciation": "Chit-ra Kaadh-ne",
+        "sentence": "मला चित्र काढायला आवडते.",
+        "translation": "I like to draw pictures.",
+        "fun_fact": "चित्रकला सर्जनशीलता वाढवते! 🎨"
+    },
+    {
+        "word": "read",
+        "marathi": "वाचणे",
+        "pronunciation": "Vaach-ne",
+        "sentence": "मी रोज पुस्तक वाचतो.",
+        "translation": "I read books every day.",
+        "fun_fact": "वाचनाने ज्ञान वाढते! 📖"
+    },
+    {
+        "word": "write",
+        "marathi": "लिहिणे",
+        "pronunciation": "Li-hi-ne",
+        "sentence": "मी वहीत लिहितो.",
+        "translation": "I write in the notebook.",
+        "fun_fact": "सुंदर अक्षर लिहिणे एक कला आहे! ✍️"
+    },
+    {
+        "word": "eat",
+        "marathi": "खाणे",
+        "pronunciation": "Khaa-ne",
+        "sentence": "मी जेवण खातो.",
+        "translation": "I eat food.",
+        "fun_fact": "वेळेवर जेवण खाणे आरोग्यासाठी चांगले आहे! 🍽️"
+    },
+    {
+        "word": "drink",
+        "marathi": "पिणे",
+        "pronunciation": "Pi-ne",
+        "sentence": "मी पाणी पितो.",
+        "translation": "I drink water.",
+        "fun_fact": "रोज ८ ग्लास पाणी प्यावे! 💧"
+    },
+    {
+        "word": "sleep",
+        "marathi": "झोपणे",
+        "pronunciation": "Jhop-ne",
+        "sentence": "मी रात्री लवकर झोपतो.",
+        "translation": "I sleep early at night.",
+        "fun_fact": "मुलांना रोज ९-१० तास झोप हवी! 😴"
+    },
+    {
+        "word": "sit",
+        "marathi": "बसणे",
+        "pronunciation": "Ba-sa-ne",
+        "sentence": "खुर्चीवर नीट बसा.",
+        "translation": "Sit properly on the chair.",
+        "fun_fact": "ताठ बसणे पाठीसाठी चांगले आहे! 🪑"
+    },
+    {
+        "word": "stand",
+        "marathi": "उभे राहणे",
+        "pronunciation": "U-bhe Raa-ha-ne",
+        "sentence": "रांगेत उभे राहा.",
+        "translation": "Stand in the queue.",
+        "fun_fact": "शिस्तीत उभे राहणे चांगली सवय आहे! 🧍"
+    },
+    {
+        "word": "come",
+        "marathi": "येणे",
+        "pronunciation": "Ye-ne",
+        "sentence": "इकडे ये.",
+        "translation": "Come here.",
+        "fun_fact": "आनंदाने या! 😊"
+    },
+    {
+        "word": "go",
+        "marathi": "जाणे",
+        "pronunciation": "Jaa-ne",
+        "sentence": "शाळेला जा.",
+        "translation": "Go to school.",
+        "fun_fact": "शाळेत जाणे भविष्य घडवते! 🏫"
+    },
+    {
+        "word": "see",
+        "marathi": "पाहणे",
+        "pronunciation": "Paa-ha-ne",
+        "sentence": "आकाशातील तारे पाहा.",
+        "translation": "See the stars in the sky.",
+        "fun_fact": "निसर्ग पाहण्यात खूप आनंद असतो! 👀"
+    },
+    {
+        "word": "hear",
+        "marathi": "ऐकणे",
+        "pronunciation": "Ai-ka-ne",
+        "sentence": "संगीत ऐकणे आनंददायी आहे.",
+        "translation": "Listening to music is enjoyable.",
+        "fun_fact": "मोठ्याने आवाज ऐकू नका — कान जपा! 👂"
+    },
+    {
+        "word": "speak",
+        "marathi": "बोलणे",
+        "pronunciation": "Bo-la-ne",
+        "sentence": "मराठीत बोलणे शिका.",
+        "translation": "Learn to speak in Marathi.",
+        "fun_fact": "मराठी ही महाराष्ट्राची अभिमानाची भाषा आहे! 🗣️"
+    },
+    {
+        "word": "think",
+        "marathi": "विचार करणे",
+        "pronunciation": "Vi-chaar Ka-ra-ne",
+        "sentence": "नेहमी विचार करून बोला.",
+        "translation": "Always think before you speak.",
+        "fun_fact": "विचार करणे बुद्धिमत्तेचे लक्षण आहे! 🧠"
+    },
+    {
+        "word": "laugh",
+        "marathi": "हसणे",
+        "pronunciation": "Has-ne",
+        "sentence": "हसणे आरोग्यासाठी चांगले आहे.",
+        "translation": "Laughing is good for health.",
+        "fun_fact": "एक दिवसात किमान दहा वेळा हसा! 😄"
+    },
+    {
+        "word": "cry",
+        "marathi": "रडणे",
+        "pronunciation": "Ra-da-ne",
+        "sentence": "रडणे मनाला हलके करते.",
+        "translation": "Crying makes the mind lighter.",
+        "fun_fact": "रडणे भावना व्यक्त करण्याचा मार्ग आहे! 😢"
+    },
+    {
+        "word": "play",
+        "marathi": "खेळणे",
+        "pronunciation": "Khe-la-ne",
+        "sentence": "मुले बागेत खेळत आहेत.",
+        "translation": "Children are playing in the garden.",
+        "fun_fact": "खेळणे मुलांचा अधिकार आहे! 🎮"
+    },
+    {
+        "word": "help",
+        "marathi": "मदत",
+        "pronunciation": "Ma-dat",
+        "sentence": "गरजूंना मदत करा.",
+        "translation": "Help those in need.",
+        "fun_fact": "मदत करणे माणसाचा सर्वात मोठा गुण आहे! 🤝"
+    },
+    {
+        "word": "love",
+        "marathi": "प्रेम",
+        "pronunciation": "Pre-ma",
+        "sentence": "आई-बाबांवर प्रेम करा.",
+        "translation": "Love your mother and father.",
+        "fun_fact": "प्रेम हे जगातील सर्वात शक्तिशाली भावना आहे! ❤️"
+    },
+    {
+        "word": "truth",
+        "marathi": "सत्य",
+        "pronunciation": "Sa-tya",
+        "sentence": "नेहमी सत्य बोला.",
+        "translation": "Always speak the truth.",
+        "fun_fact": "सत्यमेव जयते — सत्य नेहमी जिंकते! 🙏"
+    },
+    {
+        "word": "health",
+        "marathi": "आरोग्य",
+        "pronunciation": "Aa-rog-ya",
+        "sentence": "आरोग्य हीच संपत्ती आहे.",
+        "translation": "Health is wealth.",
+        "fun_fact": "व्यायाम आणि चांगले जेवण आरोग्य राखते! 💪"
+    },
+    {
+        "word": "hospital",
+        "marathi": "रुग्णालय",
+        "pronunciation": "Ru-gna-lay",
+        "sentence": "डॉक्टर रुग्णालयात काम करतात.",
+        "translation": "Doctors work in the hospital.",
+        "fun_fact": "रुग्णालयात आजारी लोकांवर उपचार होतात! 🏥"
+    },
+    {
+        "word": "doctor",
+        "marathi": "डॉक्टर",
+        "pronunciation": "Dok-tar",
+        "sentence": "डॉक्टर आपल्याला बरे करतात.",
+        "translation": "Doctors make us well.",
+        "fun_fact": "डॉक्टर हा समाजातील महत्त्वाचा व्यक्ती आहे! 👨‍⚕️"
+    },
+    {
+        "word": "medicine",
+        "marathi": "औषध",
+        "pronunciation": "Ou-shadh",
+        "sentence": "आजारपणात औषध घ्यावे.",
+        "translation": "Take medicine when sick.",
+        "fun_fact": "डॉक्टरांनी सांगितलेलेच औषध घ्या! 💊"
+    },
+    {
+        "word": "market",
+        "marathi": "बाजार",
+        "pronunciation": "Baa-jaar",
+        "sentence": "आई बाजारातून भाजी आणते.",
+        "translation": "Mother brings vegetables from the market.",
+        "fun_fact": "बाजारात अनेक प्रकारच्या वस्तू मिळतात! 🛒"
+    },
+    {
+        "word": "shop",
+        "marathi": "दुकान",
+        "pronunciation": "Du-kaan",
+        "sentence": "दुकानातून सामान विकत घेतात.",
+        "translation": "We buy things from the shop.",
+        "fun_fact": "दुकानदार आपल्या गरजा पूर्ण करतो! 🏪"
+    },
+    {
+        "word": "money",
+        "marathi": "पैसे",
+        "pronunciation": "Pai-se",
+        "sentence": "पैसे जपून वापरा.",
+        "translation": "Use money carefully.",
+        "fun_fact": "बचत करणे महत्त्वाची सवय आहे! 💰"
+    },
+    {
+        "word": "bank",
+        "marathi": "बँक",
+        "pronunciation": "Baenk",
+        "sentence": "बँकेत पैसे सुरक्षित असतात.",
+        "translation": "Money is safe in the bank.",
+        "fun_fact": "बँकेत पैसे ठेवणे शहाणपणाचे आहे! 🏦"
+    },
+    {
+        "word": "work",
+        "marathi": "काम",
+        "pronunciation": "Kaam",
+        "sentence": "मेहनतीचे काम फळ देते.",
+        "translation": "Hard work bears fruit.",
+        "fun_fact": "काम करणे यशाचा मार्ग आहे! 💼"
+    },
+    {
+        "word": "garden",
+        "marathi": "बाग",
+        "pronunciation": "Baag",
+        "sentence": "बागेत रंगीबेरंगी फुले आहेत.",
+        "translation": "There are colourful flowers in the garden.",
+        "fun_fact": "बाग म्हणजे निसर्गाचे घर! 🌺"
+    },
+    {
+        "word": "farm",
+        "marathi": "शेत",
+        "pronunciation": "Shet",
+        "sentence": "शेतात धान्य पिकते.",
+        "translation": "Crops grow in the farm.",
+        "fun_fact": "शेतकरी आपल्याला अन्न पुरवतो! 🌾"
+    },
+    {
+        "word": "village",
+        "marathi": "गाव",
+        "pronunciation": "Gaav",
+        "sentence": "माझे गाव खूप सुंदर आहे.",
+        "translation": "My village is very beautiful.",
+        "fun_fact": "भारत गावांचा देश आहे! 🏘️"
+    },
+    {
+        "word": "city",
+        "marathi": "शहर",
+        "pronunciation": "Sha-har",
+        "sentence": "मुंबई महाराष्ट्राचे मोठे शहर आहे.",
+        "translation": "Mumbai is a big city of Maharashtra.",
+        "fun_fact": "पुणे हे महाराष्ट्राचे सांस्कृतिक केंद्र आहे! 🏙️"
+    },
+    {
+        "word": "India",
+        "marathi": "भारत",
+        "pronunciation": "Bhaa-rat",
+        "sentence": "भारत माझा देश आहे.",
+        "translation": "India is my country.",
+        "fun_fact": "भारत जगातील सर्वात मोठी लोकशाही आहे! 🇮🇳"
+    },
+    {
+        "word": "Maharashtra",
+        "marathi": "महाराष्ट्र",
+        "pronunciation": "Ma-haa-raash-tra",
+        "sentence": "महाराष्ट्र मराठी भाषेचे राज्य आहे.",
+        "translation": "Maharashtra is the state of the Marathi language.",
+        "fun_fact": "महाराष्ट्र लोकसंख्येत भारतात दुसऱ्या क्रमांकावर आहे! 🗺️"
+    },
+    {
+        "word": "flag",
+        "marathi": "ध्वज",
+        "pronunciation": "Dhwa-ja",
+        "sentence": "भारताचा ध्वज तिरंगा आहे.",
+        "translation": "India's flag is tricolour.",
+        "fun_fact": "तिरंग्यात नारिंगी, पांढरा आणि हिरवा रंग आहे! 🚩"
+    },
+    {
+        "word": "temple",
+        "marathi": "मंदिर",
+        "pronunciation": "Man-dir",
+        "sentence": "मंदिरात देवाची पूजा करतात.",
+        "translation": "We worship God in the temple.",
+        "fun_fact": "महाराष्ट्रात अनेक प्रसिद्ध मंदिरे आहेत! ⛩️"
+    },
+    {
+        "word": "festival",
+        "marathi": "सण",
+        "pronunciation": "San",
+        "sentence": "दिवाळी आमचा आवडता सण आहे.",
+        "translation": "Diwali is our favourite festival.",
+        "fun_fact": "महाराष्ट्रात गणपती उत्सव मोठ्या उत्साहाने साजरा होतो! 🎊"
+    },
+    {
+        "word": "Diwali",
+        "marathi": "दिवाळी",
+        "pronunciation": "Di-vaa-li",
+        "sentence": "दिवाळीत दिवे लावतात.",
+        "translation": "Lamps are lit during Diwali.",
+        "fun_fact": "दिवाळी हा प्रकाशाचा सण आहे! 🪔"
+    },
+    {
+        "word": "Holi",
+        "marathi": "होळी",
+        "pronunciation": "Ho-li",
+        "sentence": "होळीत रंग खेळतात.",
+        "translation": "We play with colours during Holi.",
+        "fun_fact": "होळी हा रंगांचा आनंदाचा सण आहे! 🎨"
+    },
+    {
+        "word": "Ganesh",
+        "marathi": "गणेश",
+        "pronunciation": "Ga-nesh",
+        "sentence": "गणेश हा बुद्धीचा देव आहे.",
+        "translation": "Ganesh is the God of wisdom.",
+        "fun_fact": "गणपती उत्सव महाराष्ट्रात मोठ्या थाटात होतो! 🐘"
+    },
+    {
+        "word": "prayer",
+        "marathi": "प्रार्थना",
+        "pronunciation": "Praar-tha-naa",
+        "sentence": "मी रोज प्रार्थना करतो.",
+        "translation": "I pray every day.",
+        "fun_fact": "प्रार्थना मनाला शांती देते! 🙏"
+    },
+    {
+        "word": "name",
+        "marathi": "नाव",
+        "pronunciation": "Naav",
+        "sentence": "माझे नाव काय आहे?",
+        "translation": "What is my name?",
+        "fun_fact": "प्रत्येक नावामागे एक अर्थ असतो! 📛"
+    },
+    {
+        "word": "age",
+        "marathi": "वय",
+        "pronunciation": "Va-ya",
+        "sentence": "माझे वय दहा वर्षे आहे.",
+        "translation": "My age is ten years.",
+        "fun_fact": "वय हे फक्त एक आकडा आहे! 🎂"
+    },
+    {
+        "word": "year",
+        "marathi": "वर्ष",
+        "pronunciation": "Var-sha",
+        "sentence": "एका वर्षात बारा महिने असतात.",
+        "translation": "There are twelve months in a year.",
+        "fun_fact": "पृथ्वीला सूर्याभोवती फिरायला एक वर्ष लागते! 📅"
+    },
+    {
+        "word": "month",
+        "marathi": "महिना",
+        "pronunciation": "Ma-hi-naa",
+        "sentence": "एका महिन्यात तीस दिवस असतात.",
+        "translation": "There are thirty days in a month.",
+        "fun_fact": "मराठी महिन्याचे नाव चैत्र, वैशाख असे असते! 📆"
+    },
+    {
+        "word": "week",
+        "marathi": "आठवडा",
+        "pronunciation": "Aa-tha-va-daa",
+        "sentence": "एका आठवड्यात सात दिवस असतात.",
+        "translation": "There are seven days in a week.",
+        "fun_fact": "आठवड्यात सात दिवस असतात! 📅"
+    },
+    {
+        "word": "language",
+        "marathi": "भाषा",
+        "pronunciation": "Bhaa-shaa",
+        "sentence": "मराठी माझी मातृभाषा आहे.",
+        "translation": "Marathi is my mother tongue.",
+        "fun_fact": "भारतात ७०० पेक्षा जास्त भाषा बोलतात! 🗣️"
+    },
+    {
+        "word": "word",
+        "marathi": "शब्द",
+        "pronunciation": "Sha-bad",
+        "sentence": "शब्द हे ज्ञानाचे भांडार आहे.",
+        "translation": "Words are a treasure of knowledge.",
+        "fun_fact": "मराठी भाषेत लाखो शब्द आहेत! 📖"
+    },
+    {
+        "word": "sentence",
+        "marathi": "वाक्य",
+        "pronunciation": "Vaa-kya",
+        "sentence": "वाक्य पूर्ण असावे.",
+        "translation": "A sentence should be complete.",
+        "fun_fact": "वाक्यात क्रियापद असणे महत्त्वाचे आहे! ✍️"
+    },
+    {
+        "word": "story",
+        "marathi": "गोष्ट",
+        "pronunciation": "Gosh-ta",
+        "sentence": "आजी रात्री गोष्ट सांगते.",
+        "translation": "Grandmother tells a story at night.",
+        "fun_fact": "गोष्टींमधून नेहमी नीती शिकतो! 📚"
+    },
+    {
+        "word": "song",
+        "marathi": "गाणे",
+        "pronunciation": "Gaa-ne",
+        "sentence": "मला मराठी गाणी आवडतात.",
+        "translation": "I like Marathi songs.",
+        "fun_fact": "मराठी लोकगीते खूप प्रसिद्ध आहेत! 🎵"
+    },
+    {
+        "word": "music",
+        "marathi": "संगीत",
+        "pronunciation": "San-geet",
+        "sentence": "संगीत मनाला शांती देते.",
+        "translation": "Music gives peace to the mind.",
+        "fun_fact": "भारतीय संगीत जगभर प्रसिद्ध आहे! 🎶"
+    },
+    {
+        "word": "art",
+        "marathi": "कला",
+        "pronunciation": "Ka-laa",
+        "sentence": "चित्रकला एक सुंदर कला आहे.",
+        "translation": "Painting is a beautiful art.",
+        "fun_fact": "महाराष्ट्रात वारली चित्रकला प्रसिद्ध आहे! 🎨"
+    },
+    {
+        "word": "science",
+        "marathi": "विज्ञान",
+        "pronunciation": "Vi-dnyaan",
+        "sentence": "विज्ञान नवीन शोध लावते.",
+        "translation": "Science makes new discoveries.",
+        "fun_fact": "विज्ञानामुळे आपले जीवन सोपे झाले आहे! 🔬"
+    },
+    {
+        "word": "mathematics",
+        "marathi": "गणित",
+        "pronunciation": "Ga-nit",
+        "sentence": "गणित शिकणे महत्त्वाचे आहे.",
+        "translation": "Learning mathematics is important.",
+        "fun_fact": "भारताने शून्याचा शोध लावला! ➕"
+    },
+    {
+        "word": "history",
+        "marathi": "इतिहास",
+        "pronunciation": "I-ti-haas",
+        "sentence": "इतिहास आपल्याला भूतकाळ सांगतो.",
+        "translation": "History tells us about the past.",
+        "fun_fact": "महाराष्ट्राचा इतिहास शिवाजी महाराजांनी घडवला! 🏰"
+    },
+    {
+        "word": "geography",
+        "marathi": "भूगोल",
+        "pronunciation": "Bhu-gol",
+        "sentence": "भूगोलात पृथ्वीबद्दल शिकतो.",
+        "translation": "We learn about the earth in geography.",
+        "fun_fact": "भारत आशिया खंडात आहे! 🗺️"
+    },
+    {
+        "word": "computer",
+        "marathi": "संगणक",
+        "pronunciation": "San-ga-nak",
+        "sentence": "संगणक खूप उपयुक्त आहे.",
+        "translation": "The computer is very useful.",
+        "fun_fact": "संगणक माहितीचे भांडार आहे! 💻"
+    },
+    {
+        "word": "telephone",
+        "marathi": "दूरध्वनी",
+        "pronunciation": "Door-dhva-ni",
+        "sentence": "दूरध्वनीने बोलता येते.",
+        "translation": "We can talk on the telephone.",
+        "fun_fact": "दूरध्वनीमुळे जग जवळ आले! 📞"
+    },
+    {
+        "word": "television",
+        "marathi": "दूरदर्शन",
+        "pronunciation": "Door-dar-shan",
+        "sentence": "दूरदर्शनवर बातम्या बघतात.",
+        "translation": "We watch news on television.",
+        "fun_fact": "दूरदर्शन मनोरंजनाचे साधन आहे! 📺"
+    },
+    {
+        "word": "internet",
+        "marathi": "इंटरनेट",
+        "pronunciation": "In-tar-net",
+        "sentence": "इंटरनेटवर माहिती मिळते.",
+        "translation": "Information is available on the internet.",
+        "fun_fact": "इंटरनेटने जग एक गाव बनवले! 🌐"
+    },
+    {
+        "word": "electricity",
+        "marathi": "वीज",
+        "pronunciation": "Veej",
+        "sentence": "विजेशिवाय जीवन अवघड आहे.",
+        "translation": "Life is difficult without electricity.",
+        "fun_fact": "विजेचा शोध थॉमस एडिसनने लावला! ⚡"
+    },
+    {
+        "word": "light",
+        "marathi": "प्रकाश",
+        "pronunciation": "Pra-kaash",
+        "sentence": "दिव्याने प्रकाश येतो.",
+        "translation": "Light comes from the lamp.",
+        "fun_fact": "प्रकाश अंधाराला दूर करतो! 💡"
+    },
+    {
+        "word": "dark",
+        "marathi": "अंधार",
+        "pronunciation": "An-dhaar",
+        "sentence": "रात्री अंधार असतो.",
+        "translation": "It is dark at night.",
+        "fun_fact": "अंधारात तारे अधिक चमकतात! 🌑"
+    },
+    {
+        "word": "noise",
+        "marathi": "आवाज",
+        "pronunciation": "Aa-vaaj",
+        "sentence": "मोठा आवाज त्रासदायक असतो.",
+        "translation": "Loud noise is troublesome.",
+        "fun_fact": "शांत आवाजात बोलणे शिष्टाचार आहे! 🔊"
+    },
+    {
+        "word": "colour",
+        "marathi": "रंग",
+        "pronunciation": "Rang",
+        "sentence": "इंद्रधनुष्यात सात रंग असतात.",
+        "translation": "There are seven colours in a rainbow.",
+        "fun_fact": "इंद्रधनुष्य म्हणजे निसर्गाचे चित्र! 🌈"
+    },
+    {
+        "word": "shape",
+        "marathi": "आकार",
+        "pronunciation": "Aa-kaar",
+        "sentence": "वर्तुळाचा आकार गोल आहे.",
+        "translation": "The shape of a circle is round.",
+        "fun_fact": "त्रिकोण, चौकोन, वर्तुळ हे मूलभूत आकार आहेत! 🔺"
+    },
+    {
+        "word": "circle",
+        "marathi": "वर्तुळ",
+        "pronunciation": "Var-tul",
+        "sentence": "चेंडू वर्तुळाकार आहे.",
+        "translation": "A ball is circular.",
+        "fun_fact": "वर्तुळाला कोणताही कोपरा नसतो! ⭕"
+    },
+    {
+        "word": "square",
+        "marathi": "चौकोन",
+        "pronunciation": "Chou-kon",
+        "sentence": "चौकोनाला चार समान बाजू असतात.",
+        "translation": "A square has four equal sides.",
+        "fun_fact": "रुमाल चौकोनी असतो! ◼️"
+    },
+    {
+        "word": "triangle",
+        "marathi": "त्रिकोण",
+        "pronunciation": "Tri-kon",
+        "sentence": "त्रिकोणाला तीन बाजू असतात.",
+        "translation": "A triangle has three sides.",
+        "fun_fact": "पिरॅमिड त्रिकोणाच्या आकाराचे असतात! 🔺"
+    },
+    {
+        "word": "tall",
+        "marathi": "उंच",
+        "pronunciation": "Unch",
+        "sentence": "हा पर्वत खूप उंच आहे.",
+        "translation": "This mountain is very tall.",
+        "fun_fact": "एव्हरेस्ट हा जगातील सर्वात उंच पर्वत आहे! ⛰️"
+    },
+    {
+        "word": "short",
+        "marathi": "ठेंगू",
+        "pronunciation": "Then-goo",
+        "sentence": "हे झाड ठेंगू आहे.",
+        "translation": "This tree is short.",
+        "fun_fact": "बोन्साय हे ठेंगू झाड असते! 🌱"
+    },
+    {
+        "word": "long",
+        "marathi": "लांब",
+        "pronunciation": "Laamb",
+        "sentence": "नाईल नदी खूप लांब आहे.",
+        "translation": "The Nile river is very long.",
+        "fun_fact": "नाईल नदी जगातील सर्वात लांब नदी आहे! 📏"
+    },
+    {
+        "word": "near",
+        "marathi": "जवळ",
+        "pronunciation": "Ja-val",
+        "sentence": "शाळा घराजवळ आहे.",
+        "translation": "The school is near the house.",
+        "fun_fact": "जवळचे लोक जीवन सुंदर बनवतात! 🤗"
+    },
+    {
+        "word": "far",
+        "marathi": "दूर",
+        "pronunciation": "Door",
+        "sentence": "सूर्य पृथ्वीपासून खूप दूर आहे.",
+        "translation": "The sun is very far from the earth.",
+        "fun_fact": "सूर्य पृथ्वीपासून १५ कोटी किमी दूर आहे! 🌞"
+    },
+    {
+        "word": "up",
+        "marathi": "वर",
+        "pronunciation": "Va-ra",
+        "sentence": "पक्षी वर उडतात.",
+        "translation": "Birds fly up.",
+        "fun_fact": "वर आकाश आहे आणि खाली पृथ्वी! ⬆️"
+    },
+    {
+        "word": "down",
+        "marathi": "खाली",
+        "pronunciation": "Khaa-li",
+        "sentence": "पाणी खाली वाहते.",
+        "translation": "Water flows down.",
+        "fun_fact": "गुरुत्वाकर्षणामुळे सर्व गोष्टी खाली पडतात! ⬇️"
+    },
+    {
+        "word": "inside",
+        "marathi": "आत",
+        "pronunciation": "Aa-ta",
+        "sentence": "मुले घराच्या आत आहेत.",
+        "translation": "Children are inside the house.",
+        "fun_fact": "थंडीत घराच्या आत राहणे बरे असते! 🏠"
+    },
+    {
+        "word": "outside",
+        "marathi": "बाहेर",
+        "pronunciation": "Baa-her",
+        "sentence": "मुले बाहेर खेळत आहेत.",
+        "translation": "Children are playing outside.",
+        "fun_fact": "बाहेर खेळणे आरोग्यासाठी चांगले आहे! 🌳"
+    },
+    {
+        "word": "clean",
+        "marathi": "स्वच्छ",
+        "pronunciation": "Sva-cchha",
+        "sentence": "आपला परिसर स्वच्छ ठेवा.",
+        "translation": "Keep your surroundings clean.",
+        "fun_fact": "स्वच्छता हा ईश्वराजवळ जाण्याचा मार्ग आहे! 🧹"
+    },
+    {
+        "word": "dirty",
+        "marathi": "घाण",
+        "pronunciation": "Ghaan",
+        "sentence": "घाण ठिकाणी जाऊ नका.",
+        "translation": "Do not go to dirty places.",
+        "fun_fact": "स्वच्छता ठेवणे आजारापासून वाचवते! 🚫"
+    },
+    {
+        "word": "new",
+        "marathi": "नवीन",
+        "pronunciation": "Na-veen",
+        "sentence": "माझी नवीन पुस्तके आली.",
+        "translation": "My new books have arrived.",
+        "fun_fact": "नवीन गोष्टी शिकणे मनाला ताजेतवाने करते! ✨"
+    },
+    {
+        "word": "old",
+        "marathi": "जुना",
+        "pronunciation": "Ju-naa",
+        "sentence": "हे जुने पुस्तक आहे.",
+        "translation": "This is an old book.",
+        "fun_fact": "जुन्या गोष्टींमध्ये खूप आठवणी असतात! 📜"
+    },
+    {
+        "word": "strong",
+        "marathi": "मजबूत",
+        "pronunciation": "Ma-ja-boot",
+        "sentence": "हत्ती खूप मजबूत आहे.",
+        "translation": "The elephant is very strong.",
+        "fun_fact": "मजबूत शरीरासाठी व्यायाम करा! 💪"
+    },
+    {
+        "word": "soft",
+        "marathi": "मऊ",
+        "pronunciation": "Ma-u",
+        "sentence": "कापूस खूप मऊ असतो.",
+        "translation": "Cotton is very soft.",
+        "fun_fact": "मऊ गादीवर झोपणे आरामदायी असते! 🛏️"
+    },
+    {
+        "word": "hard",
+        "marathi": "कठीण",
+        "pronunciation": "Ka-theen",
+        "sentence": "दगड खूप कठीण असतो.",
+        "translation": "Stone is very hard.",
+        "fun_fact": "हिरा सर्वात कठीण पदार्थ आहे! 💎"
+    },
+    {
+        "word": "sweet",
+        "marathi": "गोड",
+        "pronunciation": "God",
+        "sentence": "साखर खूप गोड असते.",
+        "translation": "Sugar is very sweet.",
+        "fun_fact": "गोड बोलणे सर्वांना आवडते! 🍯"
+    },
+    {
+        "word": "sour",
+        "marathi": "आंबट",
+        "pronunciation": "Aam-bat",
+        "sentence": "लिंबू आंबट असते.",
+        "translation": "Lemon is sour.",
+        "fun_fact": "लिंबात व्हिटॅमिन C असते! 🍋"
+    },
+    {
+        "word": "spicy",
+        "marathi": "तिखट",
+        "pronunciation": "Ti-khat",
+        "sentence": "मिरची खूप तिखट आहे.",
+        "translation": "Chilli is very spicy.",
+        "fun_fact": "भारतीय जेवण तिखट आणि चविष्ट असते! 🌶️"
+    },
+    {
+        "word": "light",
+        "marathi": "हलका",
+        "pronunciation": "Hal-kaa",
+        "sentence": "पंख खूप हलके असतात.",
+        "translation": "Feathers are very light.",
+        "fun_fact": "हलक्या वजनाच्या गोष्टी उडतात! 🪶"
+    },
+    {
+        "word": "heavy",
+        "marathi": "जड",
+        "pronunciation": "Ja-da",
+        "sentence": "हत्ती खूप जड आहे.",
+        "translation": "The elephant is very heavy.",
+        "fun_fact": "हत्ती जमिनीवरील सर्वात जड प्राणी आहे! 🐘"
+    },
+    {
+        "word": "full",
+        "marathi": "भरलेला",
+        "pronunciation": "Bha-ra-le-laa",
+        "sentence": "पाण्याचा तांब्या भरलेला आहे.",
+        "translation": "The water pot is full.",
+        "fun_fact": "भरलेल्या मनाने काम चांगले होते! 🫙"
+    },
+    {
+        "word": "empty",
+        "marathi": "रिकामा",
+        "pronunciation": "Ri-kaa-maa",
+        "sentence": "बाटली रिकामी आहे.",
+        "translation": "The bottle is empty.",
+        "fun_fact": "रिकाम्या मनात नवीन विचार येतात! 🫙"
+    },
+    {
+        "word": "right",
+        "marathi": "उजवा",
+        "pronunciation": "U-ja-vaa",
+        "sentence": "उजव्या हाताने लिहितात.",
+        "translation": "We write with the right hand.",
+        "fun_fact": "बहुतेक लोक उजव्या हाताने लिहितात! ✋"
+    },
+    {
+        "word": "left",
+        "marathi": "डावा",
+        "pronunciation": "Daa-vaa",
+        "sentence": "डाव्या बाजूला वळा.",
+        "translation": "Turn to the left side.",
+        "fun_fact": "डाव्या हाताने लिहिणारे खूप हुशार असतात! 🤚"
+    },
+    {
+        "word": "thank you",
+        "marathi": "धन्यवाद",
+        "pronunciation": "Dhan-ya-vaad",
+        "sentence": "मदत केल्याबद्दल धन्यवाद.",
+        "translation": "Thank you for helping.",
+        "fun_fact": "धन्यवाद म्हणणे चांगले संस्कार दर्शवते! 🙏"
+    },
+    {
+        "word": "sorry",
+        "marathi": "माफ करा",
+        "pronunciation": "Maaf Ka-raa",
+        "sentence": "चुकीसाठी माफ करा.",
+        "translation": "Sorry for the mistake.",
+        "fun_fact": "माफी मागणे मनाला मोठे बनवते! 🙏"
+    },
+    {
+        "word": "please",
+        "marathi": "कृपया",
+        "pronunciation": "Kru-pa-yaa",
+        "sentence": "कृपया इकडे या.",
+        "translation": "Please come here.",
+        "fun_fact": "नम्रपणे बोलणे सर्वांना आवडते! 😊"
+    },
+    {
+        "word": "welcome",
+        "marathi": "स्वागत",
+        "pronunciation": "Svaa-gat",
+        "sentence": "आपले स्वागत आहे.",
+        "translation": "You are welcome.",
+        "fun_fact": "अतिथी देवो भव — पाहुणा हा देव असतो! 🙏"
+    },
+    {
+        "word": "yes",
+        "marathi": "हो",
+        "pronunciation": "Ho",
+        "sentence": "हो, मी येईन.",
+        "translation": "Yes, I will come.",
+        "fun_fact": "होकारात्मक उत्तर नाते मजबूत करते! ✅"
+    },
+    {
+        "word": "no",
+        "marathi": "नाही",
+        "pronunciation": "Naa-hi",
+        "sentence": "नाही, मी जाणार नाही.",
+        "translation": "No, I will not go.",
+        "fun_fact": "नाही म्हणणे कधी कधी आवश्यक असते! ❌"
+    },
+    {
+        "word": "hello",
+        "marathi": "नमस्कार",
+        "pronunciation": "Na-ma-skaar",
+        "sentence": "नमस्कार, कसे आहात?",
+        "translation": "Hello, how are you?",
+        "fun_fact": "नमस्कार म्हणजे मी तुमच्यातील देवाला नमन करतो! 🙏"
+    },
+    {
+        "word": "goodbye",
+        "marathi": "निरोप",
+        "pronunciation": "Ni-rop",
+        "sentence": "उद्या भेटू, निरोप.",
+        "translation": "See you tomorrow, goodbye.",
+        "fun_fact": "निरोप घेताना पुन्हा भेटण्याची आशा असते! 👋"
     }
 ]
