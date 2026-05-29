@@ -1,25 +1,36 @@
+# save as fix_notebooks.py in project root
 import json
+import os
 
-path = "notebooks/03_evaluate.ipynb"
+notebooks = [
+    "notebooks/03_evaluate.ipynb",
+    "notebooks/04_optuna_hpo.ipynb",
+]
 
-# ── Read with explicit UTF-8 encoding ─────────────────────
-with open(path, "r", encoding="utf-8") as f:
-    nb = json.load(f)
+for path in notebooks:
+    if not os.path.exists(path):
+        print(f"❌ Not found: {path}")
+        continue
 
-# ── Remove widgets metadata ────────────────────────────────
-if "widgets" in nb.get("metadata", {}):
-    del nb["metadata"]["widgets"]
-    print("✅ Removed metadata.widgets")
+    with open(path, "r", encoding="utf-8") as f:
+        nb = json.load(f)
 
-for cell in nb.get("cells", []):
-    if "widgets" in cell.get("metadata", {}):
-        del cell["metadata"]["widgets"]
+    # Remove widgets from metadata
+    if "widgets" in nb.get("metadata", {}):
+        del nb["metadata"]["widgets"]
+        print(f"✅ Removed metadata.widgets from {path}")
 
-# ── Write with explicit UTF-8 encoding ────────────────────
-with open(path, "w", encoding="utf-8") as f:
-    json.dump(nb, f, indent=1, ensure_ascii=False)
+    # Remove widgets from each cell
+    for cell in nb.get("cells", []):
+        if "widgets" in cell.get("metadata", {}):
+            del cell["metadata"]["widgets"]
 
-print("✅ Notebook fixed!")
-print("   Run: git add notebooks/03_evaluate.ipynb")
-print("   Run: git commit -m '🔧 Fix widget metadata'")
-print("   Run: git push origin main")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(nb, f, indent=1, ensure_ascii=False)
+
+    print(f"✅ Fixed: {path}")
+
+print("\nDone! Now run:")
+print("git add notebooks/03_evaluate.ipynb notebooks/04_optuna_hpo.ipynb")
+print("git commit -m '🔧 Fix widget metadata for GitHub rendering'")
+print("git push origin main")
