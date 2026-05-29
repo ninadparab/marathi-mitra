@@ -1,21 +1,16 @@
 # ═══════════════════════════════════════════════════════════
 # config.yaml — Marathi Mitra
-# Best hyperparameters found via experiments in
-# notebooks/02_finetune.ipynb
-#
-# Used by: src/train.py
-# To reproduce best model: python src/train.py
+# Best hyperparameters found via Optuna (v3)
+# Unseen score: 82.0%
 # ═══════════════════════════════════════════════════════════
 
-# ── Model ───────────────────────────────────────────────────
 model:
   name: "microsoft/Phi-3-mini-4k-instruct"
   max_seq_length: 512
 
-# ── LoRA Adapter ────────────────────────────────────────────
 lora:
-  r: 16                      # rank — update after experiments
-  alpha: 32                  # always 2x rank
+  r: 64
+  alpha: 128
   dropout: 0.05
   target_modules:
     - q_proj
@@ -23,23 +18,30 @@ lora:
     - v_proj
     - o_proj
 
-# ── Training ────────────────────────────────────────────────
 training:
-  learning_rate: 0.0002      # update with winning value
-  epochs: 25                 # update with winning value
+  learning_rate: 0.00023604024417191158
+  epochs: 32
   batch_size: 2
   gradient_accumulation_steps: 4
   warmup_ratio: 0.1
   fp16: true
   logging_steps: 10
   output_dir: "./results/best_model"
+  quantization: "4bit"
+  train_test_split: 0.2
 
-# ── Data ────────────────────────────────────────────────────
 data:
   vocabulary_file: "./data/vocabulary.json"
   dataset_file:    "./data/vocabulary_dataset.json"
   text_field:      "text"
 
-# ── Hugging Face ────────────────────────────────────────────
 huggingface:
-  model_repo: "ninadp/marathi-mitra-phi3"  
+  model_repo: "ninadp/marathi-mitra-phi3-v3"
+
+optuna:
+  n_trials: 20
+  hardware: "A100"
+  optimized_for: "unseen_word_score"
+  baseline_v2_unseen: 78.8
+  best_unseen: 82.0
+  best_trial: 6
