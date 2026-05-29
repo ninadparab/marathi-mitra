@@ -23,36 +23,82 @@ Output: 🌟 BUTTERFLY in Marathi is फुलपाखरू
 
 **[Try Live Demo →](https://huggingface.co/spaces/ninadp/marathi-mitra)**
 
+> Note: Running on CPU — responses take 2-5 minutes
+
 ---
 
 ## Evaluation Results
 
-| Model | Training Data | Seen Words | Unseen Words | Overall |
-|-------|--------------|------------|--------------|---------|
-| Base Phi-3 | 0 examples | 11.2% | 8.0% | 9.6% |
-| v1 Fine-tuned | 30 examples | 36.4% | 25.6% | 31.0% |
-| **v2 Fine-tuned** | **250 examples** | **100.0%** | **78.8%** | **89.4%** |
+| Model | Training Data | Method | Seen Words | Unseen Words | Overall |
+|-------|--------------|--------|------------|--------------|---------|
+| Base Phi-3 | 0 examples | None | 11.2% | 8.0% | 9.6% |
+| v1 | 30 examples | Manual HPO | 36.4% | 25.6% | 31.0% |
+| **v2** | **250 examples** | **Manual HPO** | **100.0%** | **78.8%** | **89.4%** |
+| v3 | 250 examples | Optuna HPO | 76.0% | 82.0% | 79.0% |
 
-**Total improvement: +79.8% over base model**
+**Seen words tested:** `butterfly` `mother` `rain` `elephant` `school`
 
-Evaluation criteria:
+**Unseen words tested:** `apple` `star` `tiger` `ocean` `dance`
+
+**Evaluation criteria:**
 - Field presence (40%) — all 5 sections present in output
 - Exact match (60%) — correct Marathi word + pronunciation
 
-Seen words: `butterfly` `mother` `rain` `elephant` `school`
+---
 
-Unseen words: `apple` `star` `tiger` `ocean` `dance`
+## Key Findings
 
-Generalisation gap (v2): 21.2% → ✅ Good
+### 1. Data Quantity Matters Most
+```
+Base → v1:  +21.4%  (30 examples, manual HPO)
+v1   → v2:  +58.4%  (250 examples, same config)
+v2   → v3:  -10.4%  (same data, Optuna HPO)
+```
+Expanding from 30 → 250 examples (+58.4%) had far greater
+impact than automated hyperparameter optimization alone.
+
+### 2. Metric-Objective Misalignment in Optuna
+v3 was optimized purely for **unseen word score**. This produced
+an unexpected result — unseen score exceeded seen score (82% vs 76%),
+creating a **negative generalisation gap of -6%**.
+
+```
+v2: Seen=100%  Unseen=78.8%  Gap=+21.2%  (seen > unseen)
+v3: Seen=76%   Unseen=82.0%  Gap= -6.0%  (unseen > seen!)
+```
+
+The model generalised better to new words but partially forgot
+specific training examples. This demonstrates that optimizing
+for a single metric in HPO can hurt overall performance —
+the objective function should reflect the true goal.
+
+**Lesson learned:** Optuna should optimize for overall score
+`(seen + unseen) / 2` rather than unseen score alone.
+
+### 3. Generalisation Analysis
+```
+Model  Gap      Verdict
+────────────────────────────
+base   +3.2%  → Excellent (but low absolute scores)
+v1     +10.8% → Good
+v2     +21.2% → Good      ← best overall performance
+v3     -6.0%  → Excellent ← best generalisation
+```
+
+### 4. v2 Recommended for Production
+v2 achieves the highest overall score (89.4%) and perfect
+accuracy on training vocabulary. v3's generalisation advantage
+does not outweigh its drop in overall performance.
 
 ---
 
 ## Model Versions
 
-| Version | Examples | Seen | Unseen | Repo |
-|---------|----------|------|--------|------|
-| v1 | 30 | 36.4% | 25.6% | [ninadp/marathi-mitra-phi3](https://huggingface.co/ninadp/marathi-mitra-phi3) |
-| v2 | 250 | 100.0% | 78.8% | [ninadp/marathi-mitra-phi3-v2](https://huggingface.co/ninadp/marathi-mitra-phi3-v2) |
+| Version | Examples | Seen | Unseen | Overall | Repo |
+|---------|----------|------|--------|---------|------|
+| v1 | 30 | 36.4% | 25.6% | 31.0% | [marathi-mitra-phi3](https://huggingface.co/ninadp/marathi-mitra-phi3) |
+| v2 ⭐ | 250 | 100.0% | 78.8% | 89.4% | [marathi-mitra-phi3-v2](https://huggingface.co/ninadp/marathi-mitra-phi3-v2) |
+| v3 | 250 | 76.0% | 82.0% | 79.0% | [marathi-mitra-phi3-v3](https://huggingface.co/ninadp/marathi-mitra-phi3-v3) |
 
 ---
 
@@ -63,7 +109,8 @@ Generalisation gap (v2): 21.2% → ✅ Good
 | Base model | Phi-3 Mini 4k Instruct |
 | Fine-tuning | QLoRA — PEFT + TRL SFTTrainer |
 | Quantization | 4-bit (bitsandbytes) |
-| Training hardware | Google Colab T4 GPU |
+| HPO | Optuna (TPE sampler, 20 trials) |
+| Training hardware | Google Colab T4 / A100 |
 | UI | Gradio |
 | TTS | gTTS (Marathi) |
 | Hosting | Hugging Face Spaces + Hub |
@@ -72,16 +119,29 @@ Generalisation gap (v2): 21.2% → ✅ Good
 
 ## Training
 
-Best configuration (Exp4):
+### Hyperparameter Experiments
+
+| Experiment | LR | Epochs | r | Loss | Score |
+|---|---|---|---|---|---|
+| Baseline | — | — | — | — | 9.6% |
+| Exp1 | 2e-4 | 5 | 16 | 1.29 | 12.8% |
+| Exp2 | 2e-4 | 25 | 16 | 0.20 | 28.8% |
+| Exp3 | 1e-4 | 25 | 16 | 0.37 | 16.0% |
+| **Exp4 (v2)** | **2e-4** | **25** | **32** | **0.22** | **36.4%** |
+
+### Optuna Best Config (v3)
 
 | Parameter | Value |
 |-----------|-------|
-| Learning rate | 2e-4 |
-| Epochs | 25 |
-| LoRA rank (r) | 32 |
-| LoRA alpha | 64 |
-| Quantization | 4-bit QLoRA |
+| Learning rate | 2.36e-4 |
+| Epochs | 32 |
+| LoRA rank (r) | 64 |
+| LoRA alpha | 128 |
+| Quantization | 4-bit |
 | Train/eval split | 80/20 |
+| Sampler | TPE (warm started) |
+| Trials | 20 |
+| Hardware | A100 (40GB) |
 
 ---
 
@@ -114,7 +174,7 @@ marathi-mitra/
 |----------|-------------|------|
 | 01_dataset_prep | Explore and validate dataset | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninadparab/marathi-mitra/blob/main/notebooks/01_dataset_prep.ipynb) |
 | 02_finetune | QLoRA fine-tuning + experiments | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninadparab/marathi-mitra/blob/main/notebooks/02_finetune.ipynb) |
-| 03_evaluate | Evaluate base vs v1 vs v2 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninadparab/marathi-mitra/blob/main/notebooks/03_evaluate.ipynb) |
+| 03_evaluate | Evaluate base vs v1 vs v2 vs v3 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninadparab/marathi-mitra/blob/main/notebooks/03_evaluate.ipynb) |
 | 04_optuna_hpo | Automated hyperparameter search | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninadparab/marathi-mitra/blob/main/notebooks/04_optuna_hpo.ipynb) |
 
 ---
@@ -128,8 +188,6 @@ pip install -r requirements.txt
 python app/app.py
 ```
 
----
-
 ## Reproduce Training
 
 ```bash
@@ -137,8 +195,6 @@ python app/app.py
 # Add HF credentials to .env
 python src/train.py
 ```
-
----
 
 ## Use the Model
 
@@ -159,18 +215,6 @@ tokenizer = AutoTokenizer.from_pretrained(
 )
 ```
 
----
-
-## Roadmap
-
-- [x] Fine-tune Phi-3 Mini with QLoRA
-- [x] Hyperparameter experiments (4 configs)
-- [x] Expand dataset 30 → 250 examples
-- [x] Evaluate base vs v1 vs v2
-- [x] Deploy Gradio app on HF Spaces
-- [ ] Run Optuna HPO (20 trials on A100)
-- [ ] Add quiz mode to app
-- [ ] MCP server for Claude Desktop
 
 ---
 
